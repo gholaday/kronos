@@ -169,6 +169,7 @@ export default function Timeline({
                 viewportWidth={viewportWidth}
                 height={TRACK_HEIGHT}
                 top={biblicalTop}
+                labelAlign={era.labelAlign}
               />
             </motion.div>
           ))}
@@ -192,6 +193,7 @@ export default function Timeline({
                 viewportWidth={viewportWidth}
                 height={TRACK_HEIGHT}
                 top={worldTop}
+                labelAlign={era.labelAlign}
               />
             </motion.div>
           ))}

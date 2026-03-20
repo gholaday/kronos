@@ -2,6 +2,7 @@
 
 import type { ConnectionType } from '@/lib/types';
 import { RIBBON_COLORS } from './RibbonCanvas';
+import ConnectionIcon from './ConnectionIcons';
 
 const LABELS: Record<ConnectionType, string> = {
   'prophecy-fulfillment': 'Prophecy',
@@ -52,16 +53,7 @@ export default function ConnectionLegend({
               transition: 'all 0.15s ease',
             }}
           >
-            <span
-              style={{
-                width: 14,
-                height: 3,
-                borderRadius: 2,
-                backgroundColor: color,
-                opacity: active ? 1 : 0.4,
-                display: 'inline-block',
-              }}
-            />
+            <ConnectionIcon type={type} color={active ? color : 'var(--color-text-secondary)'} />
             {LABELS[type]}
           </button>
         );

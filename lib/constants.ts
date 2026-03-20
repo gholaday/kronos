@@ -2,7 +2,7 @@ import type { ConnectionType } from './types';
 
 // Timeline range
 export const YEAR_ORIGIN = -3500; // leftmost year
-export const YEAR_END = 1500; // rightmost year
+export const YEAR_END = 1800; // rightmost year
 
 // Church history scale (between BC 1x and NT 4x)
 export const CHURCH_SCALE_FACTOR = 1.5;
@@ -57,11 +57,17 @@ export const COLORS = {
   anteNicene: '#4A6741',
   nicenePostNicene: '#996B32',
   earlyMedievalChurch: '#3A5A7A',
+  highLateMedievalChurch: '#5A4A3A',
+  reformation: '#6B3A2A',
 
   // Extended world history eras
   byzantine: '#6B3A6B',
   medievalWest: '#5A6B3A',
   islamic: '#C4793A',
+  highMedieval: '#4A5A3A',
+  mongol: '#7A5A2A',
+  ottomanRise: '#8B3A3A',
+  earlyModern: '#3A6B5A',
 
   // Map
   water: '#C8D6D0',

@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import type { BiblicalEvent, CrossReference } from '@/lib/types';
 import { CONNECTION_STYLES } from '@/lib/constants';
 import { RIBBON_COLORS } from './RibbonCanvas';
+import ConnectionIcon from './ConnectionIcons';
 import { formatYear } from '@/lib/timeline-math';
 
 interface EventModalProps {
@@ -238,16 +239,7 @@ export default function EventModal({ event, crossRefs, allEvents, onClose, onNav
                         <div key={ref.id}>
                           {/* Connection header */}
                           <div className="flex items-center gap-2 mb-1.5">
-                            <span
-                              style={{
-                                width: 16,
-                                height: 3,
-                                borderRadius: 2,
-                                backgroundColor: color,
-                                display: 'inline-block',
-                                flexShrink: 0,
-                              }}
-                            />
+                            <ConnectionIcon type={ref.type} color={color} size={14} />
                             <span
                               style={{
                                 fontSize: 9,

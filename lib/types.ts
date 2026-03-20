@@ -49,4 +49,5 @@ export interface Era {
   end: number;
   color: string;
   summary: string;
+  labelAlign?: 'top' | 'bottom';
 }

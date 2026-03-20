@@ -12,9 +12,10 @@ interface EraBandProps {
   viewportWidth: number;
   height: number;
   top: number;
+  labelAlign?: 'top' | 'bottom';
 }
 
-export default function EraBand({ era, zoom, panOffset, viewportWidth, height, top }: EraBandProps) {
+export default function EraBand({ era, zoom, panOffset, viewportWidth, height, top, labelAlign = 'bottom' }: EraBandProps) {
   const x1 = yearToX(era.start, zoom, panOffset);
   const x2 = yearToX(era.end, zoom, panOffset);
 
@@ -47,7 +48,7 @@ export default function EraBand({ era, zoom, panOffset, viewportWidth, height, t
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15, ease: 'easeOut' }}
-            className="absolute flex items-end justify-center text-center px-1 pb-1 truncate pointer-events-none"
+            className={`absolute flex ${labelAlign === 'top' ? 'items-start pt-1' : 'items-end pb-1'} justify-center text-center px-1 truncate pointer-events-none`}
             style={{
               left: x1,
               top,

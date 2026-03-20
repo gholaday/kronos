@@ -40,7 +40,7 @@ export default function Header({
           className="text-xl font-bold tracking-tight shrink-0"
           style={{ fontFamily: 'var(--font-heading)' }}
         >
-          Kronos
+          Bible Timeline
         </h1>
 
         <div className="flex items-center gap-3">
@@ -51,7 +51,7 @@ export default function Header({
           >
             <button
               onClick={() => onViewChange('timeline')}
-              className="px-3 py-1 transition-colors"
+              className="px-3 py-1 transition-colors flex items-center gap-1.5"
               style={{
                 fontFamily: 'var(--font-ui)',
                 fontSize: 12,
@@ -64,11 +64,21 @@ export default function Header({
                     : 'var(--color-text-secondary)',
               }}
             >
+              {/* Horizontal axis with event dots */}
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <line x1="1" y1="7" x2="13" y2="7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+                <circle cx="3.5" cy="7" r="1.3" fill="currentColor" />
+                <circle cx="7" cy="7" r="1.3" fill="currentColor" />
+                <circle cx="10.5" cy="7" r="1.3" fill="currentColor" />
+                <line x1="3.5" y1="4" x2="3.5" y2="5.7" stroke="currentColor" strokeWidth="1" strokeLinecap="round" />
+                <line x1="7" y1="8.3" x2="7" y2="10" stroke="currentColor" strokeWidth="1" strokeLinecap="round" />
+                <line x1="10.5" y1="4" x2="10.5" y2="5.7" stroke="currentColor" strokeWidth="1" strokeLinecap="round" />
+              </svg>
               Timeline
             </button>
             <button
               onClick={() => onViewChange('connections')}
-              className="px-3 py-1 transition-colors"
+              className="px-3 py-1 transition-colors flex items-center gap-1.5"
               style={{
                 fontFamily: 'var(--font-ui)',
                 fontSize: 12,
@@ -82,6 +92,12 @@ export default function Header({
                 borderLeft: '1px solid var(--color-border)',
               }}
             >
+              {/* Two dots with arc between them */}
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <circle cx="3" cy="10" r="1.5" fill="currentColor" />
+                <circle cx="11" cy="10" r="1.5" fill="currentColor" />
+                <path d="M3 8.5C3 4.5 11 4.5 11 8.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" fill="none" />
+              </svg>
               Connections
             </button>
           </div>

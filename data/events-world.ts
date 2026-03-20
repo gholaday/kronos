@@ -1076,4 +1076,458 @@ export const eventsWorld: BiblicalEvent[] = [
     figures: ['Vladimir I'],
     location: { name: 'Kiev', lat: 50.4501, lng: 30.5234 },
   },
+
+  // ── World Events 1000–1500 AD ─────────────────────────────────
+  {
+    id: 'world-first-crusade',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1095,
+    approximate: false,
+    title: 'First Crusade Launched',
+    description:
+      'Pope Urban II preached at the Council of Clermont, calling on Western Christendom to take up arms and liberate Jerusalem from Muslim control. The response was massive and unprecedented: tens of thousands of knights and commoners from across Europe took the cross. After a grueling march across Anatolia, the crusaders besieged and captured Jerusalem on July 15, 1099, establishing the Crusader Kingdom of Jerusalem and three other Crusader states in the Levant.',
+    significance:
+      'The First Crusade was the first large-scale military mobilization of Western Christendom and profoundly shaped relations between Christianity and Islam for centuries. It also deepened the rift between Western and Eastern Christians, as the crusaders\' behavior in Byzantine territory and their establishment of Latin patriarchates in Eastern cities alienated Constantinople.',
+    historicalContext:
+      'Urban\'s call came partly in response to a request for military aid from Byzantine Emperor Alexios I Komnenos, who faced Seljuk Turkish pressure in Anatolia. The contemporary chroniclers Fulcher of Chartres, Albert of Aachen, and the anonymous Gesta Francorum provide primary accounts. The capture of Jerusalem was accompanied by a notorious massacre of the city\'s Muslim and Jewish inhabitants.',
+    figures: ['Urban II'],
+    location: { name: 'Clermont / Jerusalem', lat: 31.7683, lng: 35.2137 },
+  },
+  {
+    id: 'world-fourth-crusade',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1204,
+    approximate: false,
+    title: 'Fourth Crusade Sacks Constantinople',
+    description:
+      'The Fourth Crusade, originally aimed at Egypt, was diverted to Constantinople through a combination of Venetian commercial interests and Byzantine dynastic politics. On April 12-13, 1204, the crusaders stormed the greatest Christian city in the world, subjecting it to three days of plunder, rape, and destruction. The Byzantine chronicler Niketas Choniates described crusaders smashing the altar of the Hagia Sophia and installing a prostitute on the patriarchal throne to sing bawdy songs.',
+    significance:
+      'The sack of Constantinople was the single most destructive blow to the unity of Christendom before the Reformation. It confirmed Eastern Orthodox suspicion of Western Christianity as predatory and permanently poisoned relations between the two communions. The Latin Empire established in its aftermath (1204-1261) replaced Orthodox bishops with Catholic ones throughout Greece and the Aegean.',
+    historicalContext:
+      'Pope Innocent III, who had called the crusade, was horrified when he learned of the sack and condemned it, but he ultimately accepted the fait accompli and the establishment of the Latin Empire. The Byzantine Empire was restored in 1261 under Michael VIII Palaiologos but never recovered its former strength, leaving it vulnerable to the Ottoman conquest of 1453.',
+    figures: [],
+    location: { name: 'Constantinople', lat: 41.0082, lng: 28.9784 },
+  },
+  {
+    id: 'world-genghis-khan',
+    track: 'world',
+    era: 'mongol',
+    year: 1206,
+    approximate: false,
+    title: 'Genghis Khan Unites the Mongols',
+    description:
+      'Temujin was proclaimed Genghis Khan ("Universal Ruler") at a great assembly (kuriltai) of Mongol tribes. Over the following two decades, he and his successors conquered the largest contiguous land empire in history, stretching from Korea to Hungary. Mongol armies destroyed the Abbasid Caliphate, sacked Baghdad in 1258, and threatened both Christendom and the Islamic world.',
+    significance:
+      'The Mongol conquests devastated the ancient Christian communities of Central Asia and the Middle East while paradoxically opening new opportunities for East-West contact. Franciscan missionaries like John of Plano Carpini (1246) and William of Rubruck (1253) traveled to the Mongol court, and Nestorian Christians held significant positions in the Mongol administration.',
+    historicalContext:
+      'The Secret History of the Mongols, written shortly after Genghis Khan\'s death, is the primary Mongol source. Persian historians al-Juvayni and Rashid al-Din, and the Chinese Yuan History, provide complementary accounts. The Mongol destruction of Baghdad in 1258 ended the Abbasid Caliphate and shifted the center of the Islamic world permanently away from Mesopotamia.',
+    figures: ['Genghis Khan'],
+    location: { name: 'Mongolia', lat: 47.9221, lng: 106.9155 },
+  },
+  {
+    id: 'world-fall-constantinople',
+    track: 'world',
+    era: 'ottoman-rise',
+    year: 1453,
+    approximate: false,
+    title: 'Fall of Constantinople to the Ottoman Turks',
+    description:
+      'Sultan Mehmed II besieged Constantinople with an army of approximately 80,000 and a massive cannon cast by the Hungarian engineer Urban. After a siege of fifty-three days, Ottoman forces breached the walls on May 29, 1453. The last Byzantine emperor, Constantine XI Palaiologos, died fighting in the final assault. The Hagia Sophia was converted into a mosque. The fall ended the Byzantine Empire after over a thousand years.',
+    significance:
+      'The fall of Constantinople was one of the most consequential events in world history. It ended the last institutional link to the Roman Empire, displaced Greek scholars and manuscripts westward (fueling the Renaissance), and established Ottoman Muslim control over the heart of Eastern Christendom. The event sent shockwaves through Europe and intensified apocalyptic expectations among both Christians and Muslims.',
+    historicalContext:
+      'The siege is documented by multiple eyewitnesses including the Venetian surgeon Nicolo Barbaro, the Byzantine historian Doukas, and the Ottoman chronicler Tursun Beg. Mehmed II allowed Greek Christians to retain their patriarch (Gennadios II Scholarios) and practice their faith under the millet system, though as a subordinate community within the Ottoman state.',
+    figures: ['Mehmed II', 'Constantine XI'],
+    location: { name: 'Constantinople', lat: 41.0082, lng: 28.9784 },
+  },
+  {
+    id: 'world-gutenberg-bible',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1455,
+    approximate: true,
+    title: 'Gutenberg Prints the Bible',
+    description:
+      'Johannes Gutenberg of Mainz completed printing the first major book produced with movable metal type: a Latin Vulgate Bible of approximately 1,286 pages in two volumes. The Gutenberg Bible (also called the 42-line Bible) was produced in an edition of about 180 copies. The printing press technology — combining movable type, oil-based ink, and a screw press adapted from wine and paper presses — revolutionized the production and distribution of written knowledge.',
+    significance:
+      'The printing press is widely regarded as the most important invention of the second millennium. It made books affordable and widely available for the first time in history, shattering the church\'s monopoly on the production and distribution of Scripture. Without the printing press, the Reformation would have been impossible: Luther\'s 95 Theses and his German Bible reached millions through print within years of their composition.',
+    historicalContext:
+      'Gutenberg\'s achievement built on Chinese and Korean predecessors in movable type and blockprint technology. His financial backer Johann Fust foreclosed on the printing operation, and Gutenberg died in relative obscurity in 1468. By 1500, an estimated 20 million books had been printed across Europe, fundamentally transforming literacy, education, and the dissemination of ideas.',
+    figures: ['Johannes Gutenberg'],
+    location: { name: 'Mainz', lat: 49.9929, lng: 8.2473 },
+  },
+  {
+    id: 'world-reconquista',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1492,
+    approximate: false,
+    title: 'Fall of Granada — Reconquista Complete',
+    description:
+      'Ferdinand and Isabella of Spain conquered the Emirate of Granada, the last Muslim state on the Iberian Peninsula, on January 2, 1492, completing the nearly 800-year Reconquista. In the same year, they expelled all Jews who refused baptism from Spain (the Alhambra Decree) and sponsored Columbus\'s first voyage to the Americas. The converso population — Jews and Muslims who converted to Christianity — would be scrutinized by the Spanish Inquisition for generations.',
+    significance:
+      'The completion of the Reconquista and the expulsion of the Jews marked the creation of a religiously uniform Christian state in Spain, achieved through a combination of military conquest, forced conversion, and ethnic cleansing. These events set the pattern for the intertwining of religious and political identity that would characterize the early modern period.',
+    historicalContext:
+      'The Reconquista had begun with the small Christian kingdoms of northern Spain in the eighth century. The fall of Granada coincided with the beginning of European overseas expansion, connecting the religious conflicts of medieval Iberia to the missionary and colonial enterprises of the Age of Discovery.',
+    figures: ['Ferdinand', 'Isabella'],
+    location: { name: 'Granada', lat: 37.1773, lng: -3.5986 },
+  },
+  {
+    id: 'world-norman-conquest',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1066,
+    approximate: false,
+    title: 'Norman Conquest of England',
+    description:
+      'William, Duke of Normandy, invaded England and defeated King Harold II at the Battle of Hastings on October 14, 1066. Harold was killed in the fighting — traditionally depicted with an arrow through his eye in the Bayeux Tapestry, though this detail is debated. William was crowned king of England on Christmas Day at Westminster Abbey. He subsequently imposed Norman feudal structures on England, replacing the Anglo-Saxon aristocracy with Norman lords and reorganizing the English church under Lanfranc of Bec as Archbishop of Canterbury. The Domesday Book, commissioned in 1085, surveyed virtually every landholding in England, providing an unparalleled snapshot of medieval society.',
+    significance:
+      'The Norman Conquest permanently transformed English language, law, culture, and church governance. It tied England to continental Europe politically and ecclesiastically, strengthening papal influence over the English church. The fusion of Anglo-Saxon and Norman French produced Middle English, the language of Chaucer and Wycliffe. Norman church-building introduced Romanesque architecture to England on a massive scale.',
+    historicalContext:
+      'The primary sources include the Bayeux Tapestry (c. 1070s), the Anglo-Saxon Chronicle, William of Poitiers\' Gesta Guillelmi, and Orderic Vitalis\' Ecclesiastical History. The conquest occurred just twelve years after the Great Schism of 1054, during a period of increasing assertiveness by the Western papacy.',
+    figures: ['William the Conqueror', 'Harold II'],
+    location: { name: 'Hastings, England', lat: 50.8574, lng: 0.5790 },
+  },
+  {
+    id: 'world-song-dynasty-zenith',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1088,
+    approximate: true,
+    title: 'Song Dynasty China — Technological Zenith',
+    description:
+      'The Northern Song Dynasty (960-1127) represented the most technologically advanced civilization in the world during this period. Around 1088, the polymath Shen Kuo published his Dream Pool Essays (Mengxi Bitan), documenting innovations including movable type printing (invented by Bi Sheng c. 1040), the magnetic compass for navigation, advanced metallurgy, and astronomical observations. Song China also pioneered paper currency, gunpowder weapons, and sophisticated hydraulic engineering. The population exceeded 100 million, and cities like Kaifeng were among the largest and most prosperous in the world.',
+    significance:
+      'Song Dynasty innovations — especially the compass, gunpowder, and printing — would eventually transform Europe and global civilization. These technologies reached Europe through trade routes and the Mongol Empire, where they contributed to the Age of Exploration, modern warfare, and the printing revolution that enabled the Reformation. While church history in this period focused on the Crusades and scholasticism, the most transformative technologies were emerging in East Asia.',
+    historicalContext:
+      'Shen Kuo\'s Dream Pool Essays (1088) is the primary source for many of these technological developments. Joseph Needham\'s Science and Civilisation in China (1954-) is the foundational modern study. The Song faced constant military pressure from northern nomadic powers, eventually losing the north to the Jurchen Jin Dynasty in 1127 and retreating south (Southern Song, 1127-1279).',
+    figures: ['Shen Kuo'],
+    location: { name: 'Kaifeng, China', lat: 34.7972, lng: 114.3076 },
+  },
+  {
+    id: 'world-university-bologna',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1088,
+    approximate: true,
+    title: 'First Universities Founded — Bologna and Paris',
+    description:
+      'The University of Bologna, traditionally dated to 1088, emerged as the first recognizable university in the Western world, initially focused on the study of Roman law through the work of the jurist Irnerius. The University of Paris coalesced in the early twelfth century around the cathedral schools of Notre-Dame, with Peter Abelard (1079-1142) as its most famous early teacher. Oxford followed by the 1160s and Cambridge by 1209. These institutions developed a structured curriculum based on the trivium (grammar, rhetoric, logic) and quadrivium (arithmetic, geometry, music, astronomy), with advanced study in theology, law, or medicine.',
+    significance:
+      'The medieval university was perhaps the most important institutional innovation of the High Middle Ages. It created a new class of educated clergy and laymen, established theology as an academic discipline (culminating in Scholasticism), and provided the institutional framework for intellectual life that persists today. The university system would later produce both the defenders and the critics of the medieval church, including Martin Luther, who was a university professor at Wittenberg.',
+    historicalContext:
+      'Hastings Rashdall\'s The Universities of Europe in the Middle Ages (1895, rev. 1936) remains a standard reference. The papal bull Parens scientiarum (1231) by Gregory IX granted the University of Paris significant autonomy. The rediscovery of Aristotle\'s complete works through Arabic translations in the twelfth century transformed university curricula and provoked the great Scholastic synthesis of faith and reason.',
+    figures: ['Irnerius', 'Peter Abelard'],
+    location: { name: 'Bologna, Italy', lat: 44.4949, lng: 11.3426 },
+  },
+  {
+    id: 'world-magna-carta',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1215,
+    approximate: false,
+    title: 'Magna Carta Sealed',
+    description:
+      'On June 15, 1215, a group of rebellious English barons compelled King John to affix his seal to the Magna Carta at Runnymede, a meadow by the Thames. The charter contained 63 clauses addressing grievances about royal taxation, feudal rights, and the administration of justice. Key provisions included the principle that no free man could be imprisoned or punished "except by the lawful judgment of his peers or by the law of the land" (clause 39) and that the king could not levy taxes without the consent of a council of barons (clause 12). Stephen Langton, Archbishop of Canterbury, played a central role in mediating between the king and the barons.',
+    significance:
+      'Although King John repudiated the charter within weeks and Pope Innocent III annulled it, the Magna Carta was reissued in revised forms in 1216, 1217, and 1225, becoming established English law. It established the revolutionary principle that the king was subject to law, not above it. This concept of limited government under law became foundational for English constitutional development, the rule of law tradition, and ultimately influenced the American Bill of Rights and modern democratic governance worldwide.',
+    historicalContext:
+      'The original 1215 charter survives in four copies, held by the British Library and the cathedrals of Lincoln and Salisbury. The chronicler Roger of Wendover (Flores Historiarum) and Matthew Paris (Chronica Majora) provide detailed contemporary accounts. Archbishop Langton\'s role illustrates the church\'s mediation function in medieval political disputes.',
+    figures: ['King John', 'Stephen Langton'],
+    location: { name: 'Runnymede, England', lat: 51.4428, lng: -0.5650 },
+  },
+  {
+    id: 'world-mongols-baghdad',
+    track: 'world',
+    era: 'mongol',
+    year: 1258,
+    approximate: false,
+    title: 'Mongols Destroy Baghdad — End of the Abbasid Caliphate',
+    description:
+      'Hulagu Khan, grandson of Genghis Khan, besieged and sacked Baghdad on February 10, 1258, ending the Abbasid Caliphate that had ruled the Islamic world for over five centuries. The last Abbasid caliph, al-Musta\'sim, was executed by being rolled in a carpet and trampled by horses. The Mongols destroyed the House of Wisdom and its vast library, reportedly turning the Tigris black with ink from discarded manuscripts. Estimates of those killed range from 200,000 to over one million. The city\'s sophisticated irrigation system was ruined, and Baghdad did not recover its former grandeur for centuries.',
+    significance:
+      'The fall of Baghdad was one of the most catastrophic events in Islamic history, destroying the political and intellectual center of the Islamic Golden Age. It permanently shifted the center of Islamic power westward to the Mamluk sultanate in Egypt (which defeated the Mongols at Ain Jalut in 1260) and eventually to the Ottoman Turks. For church history, the Mongol invasions paradoxically offered a brief moment of hope: several Mongol leaders had Nestorian Christian wives and advisors, and European Christians sent embassies hoping for an alliance against Islam.',
+    historicalContext:
+      'Rashid al-Din\'s Jami al-Tawarikh and the Armenian historian Kirakos of Gandzak provide detailed accounts. The Franciscan friar William of Rubruck traveled to the Mongol court in 1253-1255 and left an important eyewitness account of Mongol society. Pope Innocent IV had earlier sent Giovanni da Pian del Carpini to the Great Khan in 1245-1247.',
+    figures: ['Hulagu Khan'],
+    location: { name: 'Baghdad', lat: 33.3152, lng: 44.3661 },
+  },
+  {
+    id: 'world-mali-empire',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1235,
+    approximate: true,
+    title: 'Mali Empire — Rise of West African Power',
+    description:
+      'Sundiata Keita defeated the Sosso king Sumanguru at the Battle of Kirina (c. 1235) and founded the Mali Empire in West Africa. The empire controlled the trans-Saharan gold and salt trade, becoming fabulously wealthy. Under Mansa Musa (r. 1312-1337), Mali reached its zenith. Mansa Musa\'s pilgrimage to Mecca in 1324 — during which he distributed so much gold in Cairo that he depressed the Egyptian gold market for a decade — astonished the Islamic world and brought Mali to European attention. The Catalan Atlas of 1375 depicts Mansa Musa holding a gold nugget, one of the earliest European representations of a sub-Saharan African ruler.',
+    significance:
+      'The Mali Empire demonstrates that major centers of civilization, wealth, and learning existed in sub-Saharan Africa during the High Middle Ages. The city of Timbuktu, which flourished under Mali and its successor the Songhai Empire, became a renowned center of Islamic scholarship with its Sankore University. Mali\'s story challenges Eurocentric narratives of medieval history and shows the interconnection of African, Islamic, and eventually European civilizations through trade networks.',
+    historicalContext:
+      'The primary sources include the oral epic of Sundiata (preserved in the griots\' tradition and recorded by D.T. Niane in 1960), Ibn Battuta\'s Rihla (1355) describing his visit to Mali, and al-Umari\'s Masalik al-absar (c. 1340) recording interviews with Cairenes who witnessed Mansa Musa\'s pilgrimage. Archaeological work at Niani and other sites continues to illuminate the empire\'s material culture.',
+    figures: ['Sundiata Keita', 'Mansa Musa'],
+    location: { name: 'Niani, Mali', lat: 11.3833, lng: -8.6667 },
+  },
+  {
+    id: 'world-great-zimbabwe',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1250,
+    approximate: true,
+    title: 'Great Zimbabwe — Southern African Kingdom',
+    description:
+      'The stone-walled city of Great Zimbabwe, built by the ancestors of the modern Shona people, reached its peak between approximately 1220 and 1450. The site features massive dry-stone walls up to 11 meters high and 5 meters thick, constructed without mortar — the largest stone structures in sub-Saharan Africa south of the Nile. The Great Enclosure\'s outer wall extends 250 meters in circumference. The kingdom controlled gold mining and trade with Swahili coast ports like Kilwa, connecting southern Africa to the Indian Ocean trade network that reached as far as China.',
+    significance:
+      'Great Zimbabwe is evidence of a sophisticated and prosperous African civilization contemporary with the High Middle Ages in Europe. Its gold trade connected the African interior to global commerce: Chinese ceramics and Persian glass found at the site attest to far-reaching trade networks. When European colonists encountered the ruins in the nineteenth century, they initially refused to believe Africans had built them — a prejudice that modern archaeology has decisively refuted.',
+    historicalContext:
+      'Portuguese traders first heard reports of the site in the early sixteenth century; the chronicler Joao de Barros mentioned it in his Decadas da Asia (1552). Modern archaeological investigation, particularly by Gertrude Caton-Thompson (The Zimbabwe Culture, 1931) and subsequent researchers, established the African origin and dating of the site. The kingdom declined around 1450, possibly due to environmental exhaustion or the shift of trade routes.',
+    figures: [],
+    location: { name: 'Great Zimbabwe, Zimbabwe', lat: -20.2674, lng: 30.9338 },
+  },
+  {
+    id: 'world-marco-polo',
+    track: 'world',
+    era: 'mongol',
+    year: 1271,
+    approximate: false,
+    title: 'Marco Polo\'s Journey to China',
+    description:
+      'The Venetian merchant Marco Polo departed for China in 1271 with his father Niccolo and uncle Maffeo, who had previously visited the Mongol court. They traveled overland through Persia and Central Asia, arriving at the court of Kublai Khan around 1275. Marco Polo claimed to have served the Khan in various capacities for seventeen years, traveling extensively throughout the Mongol Empire. He returned to Venice in 1295. His account, Il Milione (The Travels of Marco Polo), dictated to the writer Rustichello da Pisa while both were imprisoned in Genoa, described the wealth, customs, and technologies of East Asia in astonishing detail.',
+    significance:
+      'Marco Polo\'s account introduced Europeans to the vastness and sophistication of Asian civilizations, challenging the assumption of European centrality. His descriptions of Chinese paper money, coal-burning, postal systems, and the Grand Canal expanded European geographical and commercial knowledge. The book directly inspired later explorers, including Christopher Columbus, who carried an annotated copy on his voyage to the Americas. The Pax Mongolica that made Polo\'s journey possible also facilitated the spread of plague along the same trade routes.',
+    historicalContext:
+      'The reliability of Marco Polo\'s account has been debated since its publication; skeptics note the absence of mentions of the Great Wall, tea, and foot-binding. Defenders, including the historian Hans Ulrich Vogel (Marco Polo Was in China, 2012), point to accurate details about Mongol currency, salt production, and administrative practices that could not have been obtained secondhand. The book survives in approximately 150 manuscripts in various languages, with no single authoritative text.',
+    figures: ['Marco Polo', 'Kublai Khan'],
+    location: { name: 'Venice / Beijing', lat: 39.9042, lng: 116.4074 },
+  },
+  {
+    id: 'world-hundred-years-war',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1337,
+    endYear: 1453,
+    approximate: false,
+    title: 'Hundred Years\' War Begins',
+    description:
+      'A protracted series of conflicts between England and France began in 1337 when King Edward III of England claimed the French throne through his mother Isabella, daughter of the French king Philip IV. The war saw dramatic English victories at Crecy (1346), where the longbow devastated French cavalry, and Agincourt (1415), where Henry V\'s smaller force crushed a much larger French army. The introduction of gunpowder artillery, particularly by the French under the Bureau brothers in the 1440s, eventually shifted the balance. Joan of Arc\'s relief of Orleans in 1429, claiming divine visions, revived French morale and turned the tide. The war ended in 1453 with the French expulsion of the English from all territories except Calais.',
+    significance:
+      'The Hundred Years\' War transformed European warfare through the rise of infantry over mounted knights, the introduction of gunpowder, and the development of standing professional armies. It forged distinct national identities in both England and France, weakening the supranational authority of the papacy and the ideal of a unified Christendom. The war coincided with the Great Western Schism (1378-1417) and the conciliar movement, both of which challenged papal authority and anticipated Reformation-era critiques.',
+    historicalContext:
+      'Jean Froissart\'s Chronicles (covering 1322-1400) and Enguerrand de Monstrelet\'s continuation are the principal narrative sources. The trial records of Joan of Arc (1431) survive in remarkable detail. The war devastated the French countryside, compounding the effects of the Black Death and contributing to the demographic crisis of the fourteenth century.',
+    figures: ['Edward III', 'Joan of Arc', 'Henry V'],
+    location: { name: 'France / England', lat: 48.8566, lng: 2.3522 },
+  },
+  {
+    id: 'world-black-death',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1347,
+    endYear: 1353,
+    approximate: false,
+    title: 'The Black Death',
+    description:
+      'The bubonic plague, caused by the bacterium Yersinia pestis and transmitted by fleas on rats, arrived in Europe at the Sicilian port of Messina in October 1347 aboard Genoese trading ships from the Black Sea. Over the next six years it swept across Europe, killing an estimated 30-60% of the population — perhaps 25 to 50 million people. Entire villages were depopulated. The Florentine chronicler Giovanni Villani died mid-sentence while recording the plague. Giovanni Boccaccio\'s Decameron (1353) opens with a harrowing description of Florence during the pestilence. In some regions, Jews were blamed and massacred in pogroms, despite Pope Clement VI\'s bull Quamvis perfidiam (1348) condemning these attacks.',
+    significance:
+      'The Black Death was the most devastating pandemic in European history and arguably the single most transformative event of the late medieval period. The massive labor shortage that followed empowered surviving peasants, leading to the breakdown of feudal serfdom. It shook confidence in the church, which could neither explain nor prevent the catastrophe, and contributed to a pervasive mood of religious anxiety — including flagellant movements and obsession with death (the danse macabre) — that fed into later calls for church reform. The demographic collapse also spurred technological innovation as labor-saving devices became essential.',
+    historicalContext:
+      'Modern DNA analysis from plague burial sites (Nature, 2011) confirmed Yersinia pestis as the causative agent. The plague likely originated in Central Asia and traveled westward along Mongol trade routes — the same Silk Road that had carried goods and ideas. The chroniclers Gabriele de\' Mussis (Historia de Morbo), Jean de Venette, and the Arab historian Ibn Khaldun (Muqaddimah, 1377) provide contemporary accounts from European and Islamic perspectives.',
+    figures: [],
+    location: { name: 'Messina, Sicily', lat: 38.1938, lng: 15.5540 },
+  },
+  {
+    id: 'world-ottoman-founded',
+    track: 'world',
+    era: 'ottoman-rise',
+    year: 1299,
+    approximate: true,
+    title: 'Ottoman State Founded',
+    description:
+      'Osman I (c. 1258-1326) established a small Turkic principality in northwestern Anatolia that would grow into one of the longest-lasting and most powerful empires in world history. From modest beginnings as frontier warriors (ghazis) on the Byzantine border, the Ottomans expanded methodically, absorbing other Turkish principalities and Byzantine territories. Osman\'s successors Orhan (r. 1326-1362) and Murad I (r. 1362-1389) transformed the principality into a major state, crossing into Europe in 1354 and defeating a Serbian-led coalition at the Battle of Kosovo in 1389.',
+    significance:
+      'The Ottoman state would eventually conquer Constantinople (1453), ending the Byzantine Empire, and dominate southeastern Europe, the Middle East, and North Africa for centuries. For church history, the Ottoman advance displaced Eastern Orthodox Christians, drove Greek scholars westward (accelerating the Renaissance), and posed a constant military threat that shaped European politics during the Reformation — Charles V could not suppress Protestantism in part because he needed Lutheran princes to fight the Ottomans.',
+    historicalContext:
+      'The earliest Ottoman histories, including Ashikpashazade\'s chronicle (c. 1484) and Neshri\'s history, were written over a century after the events. The Byzantine historian Pachymeres provides the earliest contemporary references to Ottoman activities. Modern scholarship, particularly the work of Halil Inalcik (The Ottoman Empire: The Classical Age, 1973), has reconstructed the early Ottoman period from a combination of Byzantine, Ottoman, and Arabic sources.',
+    figures: ['Osman I'],
+    location: { name: 'Sogut, Anatolia', lat: 40.0333, lng: 30.1833 },
+  },
+  {
+    id: 'world-ming-dynasty',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1368,
+    approximate: false,
+    title: 'Ming Dynasty Founded — Mongol Rule in China Ends',
+    description:
+      'Zhu Yuanzhang, a former Buddhist monk and rebel leader, overthrew the Mongol Yuan Dynasty and proclaimed himself the Hongwu Emperor, founding the Ming Dynasty (1368-1644). He established his capital at Nanjing and later his successor Yongle moved it to Beijing, where the Forbidden City was constructed between 1406 and 1420. The Ming restored Chinese cultural traditions, rebuilt the Great Wall in its current stone form, and presided over a period of stability and prosperity. The population recovered from Mongol-era devastation to reach approximately 160 million by 1600.',
+    significance:
+      'The Ming Dynasty\'s early decades saw China as arguably the most powerful and technologically advanced state on earth. The Yongle Emperor sponsored the massive Yongle Encyclopedia (1408), the world\'s largest encyclopedia until Wikipedia, and Admiral Zheng He\'s maritime expeditions (1405-1433), which reached East Africa with fleets dwarfing anything in Europe. China\'s subsequent turn inward — dismantling Zheng He\'s fleet and restricting maritime trade — is one of the great counterfactuals of world history, as it ceded the oceans to European powers.',
+    historicalContext:
+      'The Ming Shilu (Veritable Records of the Ming) is the dynasty\'s official chronicle. Ma Huan\'s Yingya Shenglan (Overall Survey of the Ocean\'s Shores, 1433) provides a firsthand account of Zheng He\'s voyages. The dynasty\'s founding coincided with the aftermath of the Black Death in Europe and the beginning of the Renaissance, placing it in a global context of recovery and cultural flowering after the catastrophes of the fourteenth century.',
+    figures: ['Zhu Yuanzhang'],
+    location: { name: 'Nanjing, China', lat: 32.0603, lng: 118.7969 },
+  },
+  {
+    id: 'world-great-western-schism',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1378,
+    endYear: 1417,
+    approximate: false,
+    title: 'Great Western Schism — Two (Then Three) Popes',
+    description:
+      'Following the return of the papacy from Avignon to Rome in 1377, a disputed papal election in 1378 produced two rival claimants: Urban VI in Rome and Clement VII in Avignon. For nearly four decades, Western Christendom was divided, with different kingdoms recognizing different popes. An attempt to resolve the crisis at the Council of Pisa (1409) only made matters worse by electing a third pope, Alexander V. The schism was finally resolved at the Council of Constance (1414-1418), which deposed or secured the resignation of all three claimants and elected Martin V as the sole pope in November 1417.',
+    significance:
+      'The Great Western Schism severely damaged papal prestige and moral authority. If the pope was Christ\'s vicar on earth, how could there be two or three of them? The conciliar movement that resolved the schism — asserting that a general council had authority over the pope — represented a fundamental challenge to papal supremacy that anticipated Protestant ecclesiology. The schism also exposed the entanglement of the papacy with secular politics, a critique that would become central to the Reformation.',
+    historicalContext:
+      'Dietrich of Nieheim\'s De schismate and the records of the Council of Constance are principal sources. The council also condemned and burned Jan Hus in 1415, despite a promise of safe conduct, demonstrating that the same body that sought to reform the papacy could also suppress dissent. The conciliarist decrees Haec sancta (1415) and Frequens (1417) asserted conciliar authority but were later rejected by the papacy.',
+    figures: ['Urban VI', 'Clement VII'],
+    location: { name: 'Rome / Avignon', lat: 41.9028, lng: 12.4964 },
+  },
+  {
+    id: 'world-aztec-empire',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1428,
+    approximate: true,
+    title: 'Aztec Triple Alliance — Mesoamerican Empire',
+    description:
+      'The Aztec (Mexica) city-state of Tenochtitlan, founded on an island in Lake Texcoco around 1325, formed the Triple Alliance with the city-states of Texcoco and Tlacopan around 1428, creating the dominant power in Mesoamerica. Under rulers like Itzcoatl (r. 1427-1440) and Montezuma I (r. 1440-1469), the alliance expanded through military conquest and tributary relationships to control much of central Mexico. Tenochtitlan grew into one of the largest cities in the world, with a population estimated at 200,000-300,000, featuring sophisticated aqueducts, causeways, floating gardens (chinampas), and monumental temple-pyramids.',
+    significance:
+      'The Aztec Empire was the most powerful state in the pre-Columbian Americas at the time of European contact. Its destruction by Hernan Cortes in 1519-1521 — accomplished with a small Spanish force, indigenous allies, and devastating epidemic disease — would become one of the most consequential events in world history. The empire\'s existence challenges Eurocentric assumptions about civilization and demonstrates that complex urban societies developed independently in the Americas.',
+    historicalContext:
+      'Primary sources include the Codex Mendoza (c. 1541, commissioned by the Spanish viceroy), Bernardino de Sahagun\'s Florentine Codex (1569, compiled from Nahua informants), and Bernal Diaz del Castillo\'s True History of the Conquest of New Spain (1568). The pre-Columbian Codex Borbonicus preserves ritual and calendrical knowledge. Archaeological excavation of the Templo Mayor in Mexico City since 1978 has dramatically expanded understanding of Aztec religion and culture.',
+    figures: ['Itzcoatl'],
+    location: { name: 'Tenochtitlan (Mexico City)', lat: 19.4326, lng: -99.1332 },
+  },
+  {
+    id: 'world-inca-empire',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1438,
+    approximate: true,
+    title: 'Inca Empire Expands Under Pachacuti',
+    description:
+      'Around 1438, Pachacuti Inca Yupanqui transformed the small Kingdom of Cusco into the vast Inca Empire (Tawantinsuyu, "The Four Regions Together") after defeating the rival Chanka confederation. Over the following decades, Pachacuti and his successors extended Inca rule along the Andes from modern Ecuador to central Chile — a territory of approximately 2 million square kilometers, making it the largest empire in pre-Columbian America. The Inca built an extraordinary road network of over 30,000 kilometers, including suspension bridges, way stations (tambos), and relay runners (chasquis) who could convey messages across the empire in days. They administered this vast territory without a writing system, using the quipu (knotted string records) for accounting and communication.',
+    significance:
+      'The Inca Empire demonstrates that complex, administratively sophisticated civilizations arose independently in the Americas. Its road system rivaled Rome\'s, and its agricultural terracing and freeze-drying techniques were engineering marvels. The empire\'s conquest by Francisco Pizarro in 1532 with fewer than 200 Spaniards (aided by civil war and smallpox) would reshape South American history and raise profound questions about providence, justice, and the encounter between civilizations.',
+    historicalContext:
+      'The primary sources include Pedro Cieza de Leon\'s Cronica del Peru (1553), Inca Garcilaso de la Vega\'s Royal Commentaries of the Incas (1609), and the indigenous chronicler Guaman Poma de Ayala\'s Nueva cronica y buen gobierno (c. 1615). Archaeological evidence from Machu Picchu (built c. 1450 under Pachacuti) and other sites illuminates Inca engineering and cosmology.',
+    figures: ['Pachacuti'],
+    location: { name: 'Cusco, Peru', lat: -13.5319, lng: -71.9675 },
+  },
+  {
+    id: 'world-wars-of-roses',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1455,
+    endYear: 1487,
+    approximate: false,
+    title: 'Wars of the Roses',
+    description:
+      'A series of dynastic civil wars erupted in England between the rival houses of Lancaster (red rose) and York (white rose), both descended from Edward III. The conflict began with the First Battle of St Albans (1455) and saw dramatic reversals of fortune: the Lancastrian Henry VI was deposed by the Yorkist Edward IV (1461), briefly restored (1470), and then permanently displaced. The wars culminated at the Battle of Bosworth Field (1485), where Henry Tudor defeated Richard III — the last English king to die in battle — and established the Tudor dynasty as Henry VII. His marriage to Elizabeth of York united the two houses.',
+    significance:
+      'The Wars of the Roses destroyed much of the old English feudal nobility and established the Tudor dynasty that would shape the English Reformation. Henry VII\'s son Henry VIII broke with Rome in the 1530s, and his granddaughter Elizabeth I established the Elizabethan religious settlement. The political centralization achieved by the Tudors, partly a reaction to the chaos of the civil wars, gave the English crown the power to enforce religious change from above.',
+    historicalContext:
+      'The principal sources include the Crowland Chronicle, Polydore Vergil\'s Anglica Historia (c. 1513), and Philippe de Commines\' Memoirs. The discovery of Richard III\'s skeleton under a Leicester car park in 2012, confirmed by DNA analysis, provided dramatic physical evidence. Shakespeare\'s history plays, though not historically reliable, permanently shaped popular understanding of the period.',
+    figures: ['Henry VII', 'Richard III'],
+    location: { name: 'England', lat: 52.2053, lng: -0.1218 },
+  },
+  {
+    id: 'world-italian-renaissance',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1450,
+    approximate: true,
+    title: 'Italian Renaissance at Its Height',
+    description:
+      'The Italian Renaissance, which had been developing since the fourteenth century with Petrarch, Boccaccio, and Giotto, reached its full flowering in the mid-to-late fifteenth century. Lorenzo de\' Medici ("the Magnificent") patronized artists and scholars in Florence, where Botticelli painted The Birth of Venus (c. 1485) and the young Michelangelo trained. The Medici-sponsored Platonic Academy, led by Marsilio Ficino, translated Plato\'s complete works into Latin for the first time. Leon Battista Alberti formalized the theory of linear perspective, and Leonardo da Vinci (1452-1519) embodied the Renaissance ideal of the "universal man" with his work in painting, engineering, anatomy, and natural philosophy.',
+    significance:
+      'The Renaissance represented a fundamental shift in European intellectual culture, emphasizing human reason, classical learning, and direct engagement with ancient Greek and Latin texts. The movement\'s emphasis on ad fontes ("back to the sources") — returning to original texts rather than relying on medieval commentaries — directly shaped the biblical humanism of Erasmus and the Reformers. Renaissance art transformed the visual culture of Christianity, while Renaissance skepticism toward received authority created the intellectual climate in which Reformation critiques could flourish.',
+    historicalContext:
+      'Giorgio Vasari\'s Lives of the Most Excellent Painters, Sculptors, and Architects (1550, rev. 1568) is the foundational source for Renaissance art history. Jacob Burckhardt\'s The Civilization of the Renaissance in Italy (1860) established the modern scholarly framework. The Renaissance was funded by banking wealth (the Medici), papal patronage (especially under Julius II and Leo X), and the commercial prosperity of Italian city-states.',
+    figures: ['Lorenzo de\' Medici', 'Leonardo da Vinci'],
+    location: { name: 'Florence, Italy', lat: 43.7696, lng: 11.2558 },
+  },
+  {
+    id: 'world-columbus-americas',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1492,
+    approximate: false,
+    title: 'Columbus Reaches the Americas',
+    description:
+      'On October 12, 1492, Christopher Columbus, a Genoese navigator sailing under the sponsorship of Ferdinand and Isabella of Spain, made landfall in the Bahamas (probably Guanahani/San Salvador) after a 33-day Atlantic crossing from the Canary Islands. He made four voyages between 1492 and 1504, exploring the Caribbean islands and the coasts of Central and South America, never realizing he had reached continents unknown to Europeans. Columbus established the first permanent European settlement in the Americas at La Isabela, Hispaniola, in 1493-1494. His voyages initiated sustained contact between the Old and New Worlds.',
+    significance:
+      'Columbus\'s voyages initiated the "Columbian Exchange" — the transfer of plants, animals, diseases, and peoples between the hemispheres that transformed global ecology, demography, and economics. The devastating impact of Old World diseases (especially smallpox) on indigenous American populations, who had no immunity, was catastrophic, killing an estimated 90% in some regions. The discovery raised urgent theological and moral questions about the status and rights of indigenous peoples, addressed by figures like Bartolome de las Casas and the School of Salamanca. New World wealth would fund Spanish power during the Reformation era.',
+    historicalContext:
+      'Columbus\'s own journal (surviving in Bartolome de las Casas\'s abstract), his letters to Ferdinand and Isabella, and the accounts of his son Fernando Columbus and the historian Peter Martyr d\'Anghiera (De Orbe Novo, 1511-1530) are the primary sources. The Treaty of Tordesillas (1494), mediated by Pope Alexander VI, divided the non-Christian world between Spain and Portugal, illustrating the papacy\'s assumed authority over global affairs.',
+    figures: ['Christopher Columbus'],
+    location: { name: 'San Salvador, Bahamas', lat: 24.0500, lng: -74.5333 },
+  },
+  {
+    id: 'world-vasco-da-gama',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1498,
+    approximate: false,
+    title: 'Vasco da Gama Reaches India by Sea',
+    description:
+      'The Portuguese navigator Vasco da Gama rounded the Cape of Good Hope and arrived at Calicut (Kozhikode) on the southwestern coast of India on May 20, 1498, completing the first direct sea route from Europe to Asia. The voyage, which had departed Lisbon on July 8, 1497, fulfilled decades of Portuguese exploration down the African coast begun under Prince Henry the Navigator. Da Gama\'s arrival in India bypassed the Ottoman and Venetian middlemen who had controlled the lucrative spice trade, giving Portugal direct access to Asian commerce.',
+    significance:
+      'Da Gama\'s voyage fundamentally altered global trade patterns and initiated the era of European maritime empires. Portugal rapidly established trading posts and fortifications around the Indian Ocean, from Mozambique to Macau, creating the first truly global commercial network. The shift of trade from overland Silk Road routes to maritime routes diminished the wealth of the Ottoman Empire and the Italian city-states. For church history, Portuguese maritime expansion carried Catholic missions to Africa, India, and eventually Japan and China.',
+    historicalContext:
+      'The anonymous Roteiro (journal) of da Gama\'s first voyage and Alvaro Velho\'s account are the principal sources. Joao de Barros\'s Decadas da Asia (1552-1615) provides the broader context of Portuguese expansion. Da Gama\'s encounters with the St. Thomas Christians of India — an ancient community tracing its origins to the apostle Thomas — surprised the Portuguese, who had not expected to find Christians in India.',
+    figures: ['Vasco da Gama'],
+    location: { name: 'Calicut (Kozhikode), India', lat: 11.2588, lng: 75.7804 },
+  },
+  {
+    id: 'world-erasmus-greek-nt',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1516,
+    approximate: false,
+    title: 'Erasmus Publishes the Greek New Testament',
+    description:
+      'In March 1516, the Dutch humanist scholar Desiderius Erasmus published his Novum Instrumentum omne, the first printed edition of the Greek New Testament, through the Basel publisher Johann Froben. The work presented the Greek text alongside Erasmus\'s own fresh Latin translation, which differed from the Vulgate in numerous places — some theologically significant. For example, Erasmus translated the Greek metanoeite as "be penitent" (repent inwardly) rather than the Vulgate\'s "do penance" (poenitentiam agite), undermining the sacramental theology of penance. He also omitted the Comma Johanneum (1 John 5:7-8) from early editions because it was absent from the Greek manuscripts.',
+    significance:
+      'Erasmus\'s Greek New Testament was one of the most consequential publications in Western history. It provided the textual basis for Martin Luther\'s German translation and William Tyndale\'s English translation, both cornerstones of the Protestant Reformation. By making the original Greek text accessible to scholars, Erasmus enabled direct comparison with the Vulgate and demonstrated that the official Latin Bible contained errors and interpretive choices. His work embodied the Renaissance humanist principle of ad fontes and became an indispensable tool for Reformation theology.',
+    historicalContext:
+      'Erasmus based his text on a handful of late Greek manuscripts available in Basel, making it far from a critical edition by modern standards. The competing Complutensian Polyglot, prepared at the University of Alcala under Cardinal Cisneros, was printed in 1514 but not published until 1522. Erasmus\'s extensive annotations (Annotationes) provided scholarly commentary that influenced a generation of Reformers. The work appeared just nineteen months before Luther posted his 95 Theses.',
+    figures: ['Desiderius Erasmus'],
+    location: { name: 'Basel, Switzerland', lat: 47.5596, lng: 7.5886 },
+  },
+  {
+    id: 'world-machiavelli-prince',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1513,
+    approximate: false,
+    title: 'Machiavelli Writes The Prince',
+    description:
+      'Niccolo Machiavelli, a former Florentine diplomat and official who had been exiled after the Medici returned to power, composed Il Principe (The Prince) in 1513, though it was not published until 1532, five years after his death. Drawing on his extensive diplomatic experience and study of ancient history (particularly Livy), Machiavelli argued that effective political leadership required the willingness to set aside conventional morality when circumstances demanded it. His famous counsel that it is "better to be feared than loved" and his analysis of how rulers acquire and maintain power broke radically with the medieval tradition of "mirrors for princes" literature that counseled Christian virtue.',
+    significance:
+      'The Prince is widely regarded as the founding text of modern political science, marking the separation of political analysis from Christian moral theology. Machiavelli\'s realism — his insistence on analyzing "the effective truth of the matter" rather than imaginary ideals — represented a fundamental break with the medieval synthesis of faith and governance. For church history, The Prince illuminated the cynical political calculations that characterized the Renaissance papacy (Machiavelli held up Pope Alexander VI\'s son Cesare Borgia as a model prince), providing intellectual context for the moral critiques that fueled the Reformation.',
+    historicalContext:
+      'Machiavelli\'s other major work, the Discourses on Livy (c. 1517), presented a more republican political philosophy. His writings must be understood against the backdrop of Italian political fragmentation, foreign invasions (France, Spain, the Holy Roman Empire), and the moral bankruptcy of the Renaissance papacy under the Borgia and Medici popes. The book was placed on the papal Index of Forbidden Books in 1559.',
+    figures: ['Niccolo Machiavelli'],
+    location: { name: 'Florence, Italy', lat: 43.7696, lng: 11.2558 },
+  },
+  {
+    id: 'world-portuguese-brazil',
+    track: 'world',
+    era: 'high-medieval',
+    year: 1500,
+    approximate: false,
+    title: 'Cabral Claims Brazil for Portugal',
+    description:
+      'On April 22, 1500, the Portuguese navigator Pedro Alvares Cabral, while sailing a wide westward arc across the Atlantic en route to India (following da Gama\'s route), sighted land on the coast of what is now Brazil. He landed at Porto Seguro in the modern state of Bahia, claimed the territory for Portugal, and named it Terra de Vera Cruz ("Land of the True Cross"). After spending ten days on the coast and sending a ship back to Lisbon with the news, Cabral continued to India. Whether the landfall was accidental or the result of prior Portuguese knowledge of South American shores remains debated by historians.',
+    significance:
+      'Cabral\'s landfall established Portugal\'s claim to the largest territory in South America, which would become the most populous Portuguese-speaking nation on earth. Brazil\'s colonization brought Catholic missions, plantation agriculture, and the forced importation of African slaves on an enormous scale. The Treaty of Tordesillas (1494) had coincidentally placed this coast within Portugal\'s sphere, and Cabral\'s discovery confirmed the practical value of the papal division of the globe between Spain and Portugal.',
+    historicalContext:
+      'The letter of Pero Vaz de Caminha to King Manuel I, written from Porto Seguro on May 1, 1500, is the principal eyewitness source and one of the founding documents of Brazilian history. The anonymous "Piloto anonimo" account provides additional details. Cabral\'s fleet of thirteen ships was the largest Portuguese armada to date, reflecting the strategic importance the crown placed on the India trade following da Gama\'s success.',
+    figures: ['Pedro Alvares Cabral'],
+    location: { name: 'Porto Seguro, Brazil', lat: -16.4435, lng: -39.0643 },
+  },
 ];

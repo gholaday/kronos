@@ -35,7 +35,7 @@
 - Cross-reference lines: SVG bezier curves connecting events across tracks, styled by connection type.
 - Era bands: colored semi-transparent rectangles behind event tracks.
 - Events only render when within visible viewport (culling).
-- `YEAR_ORIGIN = -3500`, `YEAR_END = 1500`
+- `YEAR_ORIGIN = -3500`, `YEAR_END = 1800`
 
 ## Visual Design ("Sacred Codex")
 
@@ -54,9 +54,9 @@
 
 ## Seed Data
 
-- 42 OT events, 23 NT events, 25 Church Fathers events, 45 world events
-- 17 biblical eras (including primeval), 4 church eras, 7 world eras
-- 57 cross-references (38 OT↔NT, 19 NT↔Church)
+- 42 OT events, 23 NT events, 42 Church events, 73 world events
+- 17 biblical eras (including primeval), 6 church eras, 11 world eras
+- 82 cross-references (38 OT↔NT, 44 NT↔Church/Medieval/Reformation)
 
 ## v1 Scope
 

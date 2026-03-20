@@ -603,4 +603,284 @@ export const crossReferences: CrossReference[] = [
     ntReference: 'Rule of St. Benedict, ch. 53',
     explanation: 'Christ fed the multitude in the wilderness, demonstrating that God provides abundantly for those who gather around him. Benedict\'s Rule enshrined hospitality as a core monastic virtue: "All guests who present themselves are to be welcomed as Christ" (ch. 53). Benedictine monasteries became centers of provision and hospitality throughout the medieval world, embodying in institutional form the generosity Christ demonstrated at the Sea of Galilee.',
   },
+
+  // ── Medieval / Pre-Reformation Cross-References (1000–1500) ────
+
+  // 1. Great Schism ← Pentecost unity / John 17 prayer
+  {
+    id: 'xref-pentecost-schism',
+    sourceEventId: 'nt-pentecost',
+    targetEventId: 'church-great-schism',
+    type: 'historical-echo',
+    label: 'From Pentecost unity to ecclesial division',
+    otReference: 'Acts 2:1-4, 44-47',
+    ntReference: 'John 17:20-23',
+    explanation: 'At Pentecost, the Spirit united believers from every nation into one body, reversing the division of Babel and constituting the church as a visible communion. Jesus had prayed "that they may all be one... so that the world may believe" (John 17:21). The Great Schism of 1054 shattered that visible unity, dividing Christendom along the very linguistic and cultural lines (Greek East vs. Latin West) that Pentecost had transcended. The mutual excommunications between Rome and Constantinople represented the most grievous breach of the unity Christ prayed for and the Spirit had established.',
+  },
+  // 2. Great Schism ← Kingdom Divides (historical parallel)
+  {
+    id: 'xref-kingdom-divides-schism',
+    sourceEventId: 'ot-kingdom-divides',
+    targetEventId: 'church-great-schism',
+    type: 'historical-echo',
+    label: 'God\'s people divided',
+    otReference: '1 Kings 12:16-20',
+    ntReference: '1 Corinthians 1:10-13',
+    explanation: 'After Solomon\'s death, the united kingdom of Israel split into two rival kingdoms over disputes about authority and governance (1 Kings 12). The Great Schism of 1054 echoes this pattern: a unified covenant community, already strained by linguistic, liturgical, and jurisdictional differences, fractured permanently over questions of authority (papal primacy) and doctrinal formulation (the filioque). In both cases, the division was preceded by centuries of growing tension and proved resistant to all subsequent attempts at reunion.',
+  },
+  // 3. First Crusade ← OT holy war / NT peace teachings
+  {
+    id: 'xref-crusade-holy-war',
+    sourceEventId: 'ot-crossing-jordan',
+    targetEventId: 'world-first-crusade',
+    type: 'historical-echo',
+    label: 'Claiming the holy land by force',
+    otReference: 'Joshua 6; Deuteronomy 20:1-4',
+    ntReference: 'Matthew 5:9, 44; John 18:36',
+    explanation: 'Pope Urban II\'s call to crusade in 1095 deliberately invoked the OT conquest of Canaan: Christians were called to reclaim the "holy land" by divine mandate, just as Joshua had led Israel to take the Promised Land by force (Joshua 6; Deuteronomy 20:1-4). However, the crusading ideology stood in sharp tension with Jesus\' teaching that "blessed are the peacemakers" (Matthew 5:9), His command to love enemies (Matthew 5:44), and His declaration that "my kingdom is not of this world" (John 18:36). The Crusades represent one of history\'s most consequential attempts to apply OT holy war categories to the post-Christ era.',
+  },
+  // 4. Fourth Crusade ← Temple cleansing / sacrilege
+  {
+    id: 'xref-fourth-crusade-temple',
+    sourceEventId: 'nt-temple-destroyed',
+    targetEventId: 'world-fourth-crusade',
+    type: 'historical-echo',
+    label: 'Desecration of God\'s house',
+    otReference: '2 Kings 25:9-17',
+    ntReference: 'John 2:13-17',
+    explanation: 'Jesus drove the money changers from the Temple, declaring "You shall not make my Father\'s house a house of trade" (John 2:16). The Fourth Crusade\'s sack of Constantinople in 1204 perpetrated the opposite: soldiers who had taken the cross to defend Christendom instead desecrated the Hagia Sophia, the greatest church in the world, smashing its altar and looting its treasures. The Byzantine chronicler Niketas Choniates drew explicit parallels to the Babylonian destruction of Jerusalem (2 Kings 25). The event echoes the biblical pattern in which those entrusted with God\'s purposes instead profane His holy places.',
+  },
+  // 5. Anselm ← Isaiah Suffering Servant / Crucifixion atonement
+  {
+    id: 'xref-crucifixion-anselm',
+    sourceEventId: 'nt-crucifixion',
+    targetEventId: 'church-anselm',
+    type: 'doctrinal-development',
+    label: 'Systematic theology of the cross',
+    otReference: 'Isaiah 53:5-6, 10-11',
+    ntReference: 'Romans 3:23-26; Hebrews 9:22',
+    explanation: 'Isaiah prophesied that the Servant would be "pierced for our transgressions" and that "the Lord has laid on him the iniquity of us all" (Isaiah 53:5-6). Paul declared that God set forth Christ as a propitiation "to show his righteousness" (Romans 3:25). Anselm\'s Cur Deus Homo (1098) provided the first comprehensive systematic account of why the cross was necessary: human sin created an infinite debt of honor to God that only a God-man could satisfy. His satisfaction theory drew on both the biblical texts and the feudal honor culture of his time, shaping Western atonement theology for centuries and influencing both Catholic and Protestant soteriology.',
+  },
+  // 6. Francis of Assisi ← Early church communal living
+  {
+    id: 'xref-acts-community-francis',
+    sourceEventId: 'nt-pentecost',
+    targetEventId: 'church-francis-assisi',
+    type: 'thematic',
+    label: 'Radical poverty and apostolic simplicity',
+    otReference: 'Acts 2:44-45; 4:32-35',
+    ntReference: 'Matthew 10:7-10; 19:21',
+    explanation: 'The earliest church "had all things in common" and "sold their possessions and goods and distributed the proceeds to all, as any had need" (Acts 2:44-45). Jesus instructed His apostles to "take no gold, nor silver, nor copper in your belts, no bag for your journey" (Matthew 10:9-10). Francis of Assisi (1209) took these texts as a literal program: he renounced all property, embraced radical poverty, and sent his followers out in pairs without money or provisions, explicitly modeling their life on the apostolic pattern described in Acts and the sending of the Twelve in Matthew 10.',
+  },
+  // 7. Francis ← Anthony of Egypt (monastic renewal)
+  {
+    id: 'xref-anthony-francis',
+    sourceEventId: 'church-anthony-desert',
+    targetEventId: 'church-francis-assisi',
+    type: 'historical-echo',
+    label: 'Hearing the gospel, renouncing all',
+    otReference: 'Matthew 19:21',
+    ntReference: 'Athanasius, Life of Anthony 2',
+    explanation: 'Anthony of Egypt heard the gospel reading "Go, sell all that you have and give to the poor, and you will have treasure in heaven" (Matthew 19:21) and took it as a personal divine call to abandon everything (Athanasius, Life of Anthony 2). Nearly a millennium later, Francis of Assisi heard the same call through the gospel reading of Matthew 10:7-10 and responded identically, stripping off his fine clothes in the public square. Both men founded movements that revitalized the church through radical return to the evangelical counsels of poverty and prayer.',
+  },
+  // 8. Aquinas ← Augustine / Paul\'s Romans (doctrinal development)
+  {
+    id: 'xref-augustine-aquinas',
+    sourceEventId: 'church-augustine',
+    targetEventId: 'church-aquinas',
+    type: 'doctrinal-development',
+    label: 'Patristic theology meets Aristotelian philosophy',
+    otReference: 'Romans 1:19-20',
+    ntReference: 'Confessions 7.9; Summa Theologiae I.q2.a3',
+    explanation: 'Paul declared that God\'s invisible attributes are "clearly perceived... in the things that have been made" (Romans 1:19-20), establishing the possibility of natural theology. Augustine, converted through reading Romans (Confessions 8.12), incorporated Neoplatonic philosophy into his theological synthesis. Aquinas built on Augustine\'s foundation but replaced the Neoplatonic framework with Aristotelian philosophy, arguing in the Summa Theologiae (I.q2.a3) that God\'s existence can be demonstrated through five proofs from natural reason. His synthesis of faith and reason represents the fullest medieval development of the theological tradition that runs from Paul through Augustine.',
+  },
+  // 9. Aquinas ← John of Damascus (Eastern systematization)
+  {
+    id: 'xref-damascus-aquinas',
+    sourceEventId: 'church-john-damascus',
+    targetEventId: 'church-aquinas',
+    type: 'doctrinal-development',
+    label: 'From Eastern compendium to Western summa',
+    otReference: 'Exact Exposition of the Orthodox Faith',
+    ntReference: 'Summa Theologiae',
+    explanation: 'John of Damascus\'s Exact Exposition of the Orthodox Faith (c. 730) was the first comprehensive systematic theology, organizing the entire Greek patristic tradition into 100 chapters. Aquinas explicitly cited John of Damascus over 1,500 times in the Summa Theologiae and adopted his basic organizational method of proceeding systematically through the entire body of Christian doctrine. The Summa represents the Latin equivalent of John\'s achievement, but expanded to incorporate Aristotelian philosophy and address the new questions posed by the thirteenth-century intellectual environment.',
+  },
+  // 10. Fourth Lateran (transubstantiation) ← Last Supper
+  {
+    id: 'xref-last-supper-lateran',
+    sourceEventId: 'nt-last-supper',
+    targetEventId: 'church-fourth-lateran',
+    type: 'doctrinal-development',
+    label: 'Transubstantiation defined',
+    otReference: 'Luke 22:19-20',
+    ntReference: '1 Corinthians 11:23-29',
+    explanation: 'Jesus declared over the bread, "This is my body" (Luke 22:19) and over the cup, "This is my blood of the covenant" (Matthew 26:28). Paul warned the Corinthians against partaking unworthily, "not discerning the body" (1 Corinthians 11:29). The Fourth Lateran Council (1215) formalized the doctrine of transubstantiation, using Aristotelian philosophical categories to define the eucharistic change: the "substance" of bread and wine becomes Christ\'s body and blood while the "accidents" (appearance, taste, texture) remain. This philosophical precision went beyond what the biblical texts themselves state and became one of the most contested doctrines of the Reformation.',
+  },
+  // 11. Western Papal Schism ← Peter's commission and church authority
+  {
+    id: 'xref-peter-papal-schism',
+    sourceEventId: 'nt-pentecost',
+    targetEventId: 'church-papal-schism',
+    type: 'thematic',
+    label: 'Rival claims to Peter\'s chair',
+    otReference: 'Matthew 16:18-19',
+    ntReference: 'Galatians 2:11-14',
+    explanation: 'Jesus told Peter, "On this rock I will build my church, and the gates of hell shall not prevail against it. I will give you the keys of the kingdom" (Matthew 16:18-19). The Western Papal Schism (1378-1417) reduced this promise to absurdity: two and then three rival popes each claimed to be Peter\'s sole legitimate successor, each excommunicating the others\' followers. Paul\'s example of opposing Peter "to his face" when Peter was wrong (Galatians 2:11) was cited by conciliarists who argued that the church\'s authority transcends any individual pope. The schism undermined papal credibility so severely that it prepared the ground for the Reformation\'s rejection of papal supremacy entirely.',
+  },
+  // 12. Wycliffe ← Josiah rediscovers the Law / Scripture authority
+  {
+    id: 'xref-josiah-wycliffe',
+    sourceEventId: 'ot-josiah-reforms',
+    targetEventId: 'church-wycliffe',
+    type: 'historical-echo',
+    label: 'Rediscovering Scripture triggers reform',
+    otReference: '2 Kings 22:8-13',
+    ntReference: '2 Timothy 3:16-17',
+    explanation: 'When King Josiah heard the Book of the Law read aloud after it had been lost in the Temple for generations, he tore his robes and initiated sweeping reforms (2 Kings 22:8-13). John Wycliffe\'s program of translating the Bible into English (1382) and distributing it among the common people triggered a parallel reformation: people who heard Scripture in their own language for the first time recognized the distance between biblical Christianity and the institutional church of their day. Both events demonstrate the pattern that when Scripture is recovered and made accessible, reform follows.',
+  },
+  // 13. Wycliffe / Hus ← Paul on Scripture's authority
+  {
+    id: 'xref-paul-romans-wycliffe-hus',
+    sourceEventId: 'nt-paul-romans',
+    targetEventId: 'church-hus',
+    type: 'doctrinal-development',
+    label: 'Scripture over papal authority',
+    otReference: 'Romans 1:16-17; 3:21-26',
+    ntReference: '2 Timothy 3:16-17; 2 Peter 1:20-21',
+    explanation: 'Paul declared that the gospel is "the power of God for salvation to everyone who believes" (Romans 1:16) and that the righteousness of God is revealed through faith, not institutional mediation. Both Wycliffe and Hus appealed to Paul\'s letters to argue that Scripture, not papal decree, is the supreme authority for Christian faith. Hus declared before the Council of Constance that he would recant only if convinced by Scripture (a position Luther would echo at Worms a century later). Their insistence that Paul\'s doctrine of justification by faith (Romans 3:21-26) superseded the medieval system of sacramental merit and indulgences anticipates the Reformation\'s sola scriptura and sola fide.',
+  },
+  // 14. Jan Hus ← Stephen / prophetic martyrdom
+  {
+    id: 'xref-stephen-hus',
+    sourceEventId: 'nt-stephen',
+    targetEventId: 'church-hus',
+    type: 'historical-echo',
+    label: 'Martyred for challenging religious authority',
+    otReference: 'Acts 7:51-60',
+    ntReference: 'Matthew 23:29-37',
+    explanation: 'Stephen charged the Sanhedrin with being "stiff-necked people" who "always resist the Holy Spirit" and "killed those who announced beforehand the coming of the Righteous One" (Acts 7:51-52). Jan Hus stood before the Council of Constance in 1415 and charged the institutional church with the same pattern: betraying the gospel, persecuting those who preach truth, and elevating human traditions above Scripture. Like Stephen, Hus was condemned and executed by the very religious authority he challenged. Jesus Himself had warned that Jerusalem "kills the prophets and stones those who are sent to it" (Matthew 23:37), a pattern both Stephen and Hus embodied.',
+  },
+  // 15. Bernard of Clairvaux ← Song of Solomon / mystical union
+  {
+    id: 'xref-song-of-solomon-bernard',
+    sourceEventId: 'ot-solomon-temple',
+    targetEventId: 'church-bernard-clairvaux',
+    type: 'quotation',
+    label: 'Mystical reading of the Song of Solomon',
+    otReference: 'Song of Solomon 1:2; 2:16',
+    ntReference: 'Ephesians 5:25-32; Revelation 19:7-9',
+    explanation: 'Solomon\'s Song of Songs celebrates the love between a bridegroom and bride. Paul interprets marital love as a "mystery" referring to "Christ and the church" (Ephesians 5:32), and Revelation depicts the consummation of history as "the marriage supper of the Lamb" (Revelation 19:9). Bernard of Clairvaux\'s 86 sermons on the Song of Solomon (1135-1153) are the most extensive patristic-medieval exposition of this text, reading every verse as describing the soul\'s loving union with Christ. His mystical theology profoundly influenced later Western spirituality, from the Rhineland mystics to the Protestant Pietists.',
+  },
+  // 16. Gutenberg Bible ← Ezra reads the Law / spread of Scripture
+  {
+    id: 'xref-ezra-gutenberg',
+    sourceEventId: 'ot-ezra-reforms',
+    targetEventId: 'world-gutenberg-bible',
+    type: 'thematic',
+    label: 'Scripture made accessible to the people',
+    otReference: 'Nehemiah 8:1-8',
+    ntReference: '2 Timothy 2:9 ("the word of God is not bound")',
+    explanation: 'Ezra the scribe stood before the assembled people and read the Book of the Law publicly, with Levites providing interpretation "so that the people understood the reading" (Nehemiah 8:8). This event established the pattern of making Scripture accessible and comprehensible to the whole community. Gutenberg\'s printing of the Bible in 1455 achieved this on an unprecedented scale: where a hand-copied Bible cost the equivalent of a year\'s wages, printed Bibles became affordable within decades. Paul\'s declaration that "the word of God is not bound" (2 Timothy 2:9) found its technological fulfillment in movable type.',
+  },
+  // 17. Fall of Constantinople ← Fall of Jerusalem (pattern of holy city destruction)
+  {
+    id: 'xref-jerusalem-constantinople',
+    sourceEventId: 'nt-temple-destroyed',
+    targetEventId: 'world-fall-constantinople',
+    type: 'historical-echo',
+    label: 'The holy city falls',
+    otReference: '2 Kings 25:8-12',
+    ntReference: 'Matthew 24:1-2; Luke 21:20-24',
+    explanation: 'Jerusalem was destroyed by Babylon in 586 BC (2 Kings 25) and again by Rome in 70 AD, fulfilling Jesus\' prophecy that "not one stone will be left upon another" (Matthew 24:2). Constantinople, the "New Rome" and seat of Eastern Christendom for over a thousand years, fell to the Ottoman Turks in 1453. Each destruction represented the end of an era: the First Temple era, the Second Temple era, and the Byzantine Christian era. Each prompted the dispersal of God\'s people and their texts into new lands, paradoxically spreading the faith and its Scriptures more widely than before.',
+  },
+  // 18. Council of Florence ← Council of Jerusalem (conciliar reunion attempts)
+  {
+    id: 'xref-jerusalem-council-florence',
+    sourceEventId: 'nt-council-jerusalem',
+    targetEventId: 'church-council-florence',
+    type: 'doctrinal-development',
+    label: 'Conciliar method stretched to breaking point',
+    otReference: 'Acts 15:6-29',
+    ntReference: 'Ephesians 4:3-6',
+    explanation: 'The Council of Jerusalem (Acts 15) established the model of resolving theological disputes through conciliar deliberation, and Paul urged believers to maintain "the unity of the Spirit in the bond of peace" (Ephesians 4:3). The Council of Florence (1439) represented the most ambitious application of this model: an attempt to heal the Great Schism through theological negotiation. But where the Jerusalem council succeeded because the Spirit genuinely guided apostolic consensus (Acts 15:28), Florence failed because political coercion (the Byzantine need for military aid) substituted for genuine theological agreement. The failure demonstrated the limits of the conciliar method when applied to deep-rooted institutional and theological divisions.',
+  },
+  // 19. Reconquista ← Exile and return pattern
+  {
+    id: 'xref-exile-reconquista',
+    sourceEventId: 'ot-cyrus-decree',
+    targetEventId: 'world-reconquista',
+    type: 'historical-echo',
+    label: 'Recovery of lost homeland',
+    otReference: 'Ezra 1:1-4; Isaiah 44:28',
+    ntReference: 'Hebrews 11:13-16',
+    explanation: 'God raised up Cyrus to restore Israel to its land after the Babylonian exile (Isaiah 44:28; Ezra 1:1-4). The Reconquista (completed 1492) was consciously framed by medieval Spanish Christians as a parallel divine restoration: the recovery of Christian territories lost to Islamic conquest seven centuries earlier. Both narratives invoke divine providence restoring God\'s people to their rightful homeland. Yet Hebrews warns that the patriarchs "desired a better country, that is, a heavenly one" (Hebrews 11:16), suggesting that earthly reconquests, however historically significant, remain shadows of the ultimate restoration.',
+  },
+
+  // ── Reformation Cross-References ──────────────────────────
+  // 20. Luther's 95 Theses ← Paul's doctrine of justification
+  {
+    id: 'xref-justification-luther',
+    sourceEventId: 'nt-paul-romans',
+    targetEventId: 'church-95-theses',
+    type: 'doctrinal-development',
+    label: 'Justification by faith alone recovered',
+    otReference: 'Habakkuk 2:4; Genesis 15:6',
+    ntReference: 'Romans 1:17; Romans 3:21-28; Galatians 2:16',
+    explanation: 'Paul\'s letter to the Romans declared that "the righteous shall live by faith" (Romans 1:17, quoting Habakkuk 2:4) and that sinners are "justified by faith apart from works of the law" (Romans 3:28). Luther\'s breakthrough came while preparing lectures on Romans when he grasped that the "righteousness of God" in Romans 1:17 is not a demanding standard but a gift received through faith. This recovery of Pauline soteriology became the material principle of the Reformation: sola fide (faith alone). Luther later said the doctrine of justification is "the article by which the church stands or falls."',
+  },
+  // 21. Luther at Worms ← Apostles before the Sanhedrin
+  {
+    id: 'xref-apostles-worms',
+    sourceEventId: 'nt-pentecost',
+    targetEventId: 'church-diet-worms',
+    type: 'historical-echo',
+    label: 'Conscience bound to God\'s Word over human authority',
+    otReference: 'Daniel 3:16-18',
+    ntReference: 'Acts 4:19-20; Acts 5:29',
+    explanation: 'When Peter and John were commanded by the Sanhedrin to stop preaching, they answered: "We must obey God rather than men" (Acts 5:29). Luther echoed this principle at the Diet of Worms when he refused to recant "since it is neither safe nor right to go against conscience." Both moments established that divine authority mediated through Scripture takes precedence over institutional religious authority. The pattern reaches back to Daniel\'s companions, who told Nebuchadnezzar: "We will not serve your gods" (Daniel 3:18).',
+  },
+  // 22. Calvin's Institutes ← Augustine's theology of grace
+  {
+    id: 'xref-augustine-calvin',
+    sourceEventId: 'church-augustine',
+    targetEventId: 'church-calvin-institutes',
+    type: 'doctrinal-development',
+    label: 'Augustinian theology of sovereign grace',
+    otReference: 'Exodus 33:19; Malachi 1:2-3',
+    ntReference: 'Romans 9:10-24; Ephesians 1:3-14',
+    explanation: 'Augustine\'s anti-Pelagian writings established the doctrines of original sin, the bondage of the will, and the absolute necessity of divine grace for salvation. Calvin drew deeply from Augustine\'s theology, developing it into a comprehensive system centered on God\'s sovereignty, unconditional election, and irresistible grace. Calvin quoted Augustine more than any other post-biblical author in the Institutes, and explicitly claimed he was recovering Augustine\'s teaching from medieval distortion. The Reformed tradition\'s emphasis on predestination (Romans 9; Ephesians 1) is a direct line from Augustine through Calvin.',
+  },
+  // 23. Council of Trent ← Fourth Lateran Council
+  {
+    id: 'xref-lateran-trent',
+    sourceEventId: 'church-fourth-lateran',
+    targetEventId: 'church-council-trent',
+    type: 'doctrinal-development',
+    label: 'Catholic doctrine defined against Protestant challenge',
+    otReference: 'Exodus 12:14; Leviticus 17:11',
+    ntReference: 'John 6:53-56; James 2:14-26; 1 Corinthians 11:23-29',
+    explanation: 'The Fourth Lateran Council (1215) first defined transubstantiation and mandated sacramental confession; the Council of Trent (1545-1563) reaffirmed and elaborated these doctrines in direct response to the Reformers\' challenges. Trent\'s decree on justification addressed Luther\'s sola fide by appealing to James 2:24 ("a person is justified by works and not by faith alone"), while its eucharistic teaching doubled down on Fourth Lateran\'s transubstantiation against Protestant alternatives. Both councils represent the church defining its teaching more precisely under external challenge.',
+  },
+  // 24. Wycliffe to Luther — pre-Reformation to Reformation
+  {
+    id: 'xref-wycliffe-luther',
+    sourceEventId: 'church-wycliffe',
+    targetEventId: 'church-95-theses',
+    type: 'doctrinal-development',
+    label: 'Morning Star to Reformation sunrise',
+    otReference: '2 Kings 22:8-13',
+    ntReference: '2 Timothy 3:16-17; Romans 1:16-17',
+    explanation: 'Wycliffe\'s insistence on Scripture\'s supreme authority and his production of an English Bible (1382) anticipated Luther\'s sola scriptura by over a century. Both men were driven by the conviction that the church had strayed from its biblical foundations. The Council of Constance (1415) condemned Wycliffe\'s writings and burned Jan Hus, but could not suppress the desire for reform. Luther inherited and fulfilled this pre-Reformation impulse, with the printing press providing the mass distribution that Wycliffe\'s hand-copied Bibles could not achieve.',
+  },
+  // 25. English Reformation ← Magna Carta
+  {
+    id: 'xref-magna-carta-supremacy',
+    sourceEventId: 'world-magna-carta',
+    targetEventId: 'church-act-supremacy',
+    type: 'historical-echo',
+    label: 'English assertion of sovereignty against external authority',
+    otReference: '1 Samuel 8:4-9',
+    ntReference: 'Romans 13:1-7',
+    explanation: 'Magna Carta (1215) established the principle that even the king was subject to law, limiting external papal interference in English affairs (several clauses dealt with church liberties). The Act of Supremacy (1534) extended this assertion of national sovereignty to its logical conclusion, rejecting papal jurisdiction entirely. Both documents reflect England\'s recurring pattern of asserting its independence from continental authority, a pattern that shaped the distinctively national character of the English Reformation.',
+  },
 ];

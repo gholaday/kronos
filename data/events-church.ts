@@ -416,4 +416,290 @@ export const eventsChurch: BiblicalEvent[] = [
     figures: ['Irene'],
     location: { name: 'Nicaea', lat: 40.4292, lng: 29.7211 },
   },
+
+  // ── High & Late Medieval Church (1000–1500) ────────────────────
+  {
+    id: 'church-great-schism',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1054,
+    approximate: false,
+    title: 'Great Schism — East and West Divide',
+    description:
+      'Cardinal Humbert, papal legate of Pope Leo IX, placed a bull of excommunication on the altar of the Hagia Sophia against Patriarch Michael Cerularius of Constantinople. Cerularius responded by excommunicating the papal legates. The mutual excommunications formalized centuries of growing estrangement between the Latin West and Greek East over issues including the filioque clause in the Nicene Creed, papal authority, liturgical practices (leavened vs. unleavened bread), and clerical celibacy.',
+    significance:
+      'The Great Schism permanently divided Christendom into the Roman Catholic and Eastern Orthodox communions, a division that persists to this day despite the mutual lifting of excommunications in 1965 by Pope Paul VI and Patriarch Athenagoras. The schism shattered the visible unity of the church that had been maintained, however imperfectly, since Pentecost.',
+    historicalContext:
+      'Tensions between Rome and Constantinople had been building for centuries, rooted in linguistic, cultural, and political differences between the Latin West and Greek East. Previous ruptures (the Acacian Schism of 484-519, the Photian Schism of 863-867) had been healed, but the 1054 breach proved permanent. The Norman conquest of Byzantine southern Italy and the later sack of Constantinople during the Fourth Crusade (1204) deepened the hostility beyond repair.',
+    figures: ['Michael Cerularius'],
+    location: { name: 'Constantinople', lat: 41.0082, lng: 28.9784 },
+  },
+  {
+    id: 'church-anselm',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1098,
+    approximate: true,
+    title: 'Anselm of Canterbury — Cur Deus Homo',
+    description:
+      'Anselm, archbishop of Canterbury, completed Cur Deus Homo ("Why God Became Man"), the most influential medieval treatise on the atonement. He argued that human sin created an infinite debt of honor owed to God that no finite creature could repay, and that only a God-man (Christ) could make satisfaction sufficient to restore the broken relationship between God and humanity. Anselm also wrote the Proslogion, containing his famous ontological argument for God\'s existence.',
+    significance:
+      'Anselm\'s satisfaction theory of the atonement provided the dominant Western framework for understanding the cross for centuries, influencing both Catholic and later Protestant soteriology. His method of "faith seeking understanding" (fides quaerens intellectum) established the program for scholastic theology, earning him the title "Father of Scholasticism."',
+    historicalContext:
+      'Anselm wrote during the Investiture Controversy, when the church was asserting its independence from secular rulers. He was twice exiled from England for defending papal authority against King William II and Henry I. His theology was shaped by the feudal honor culture of his time, which is reflected in the "satisfaction" language of Cur Deus Homo.',
+    figures: ['Anselm of Canterbury'],
+    location: { name: 'Canterbury', lat: 51.2802, lng: 1.0789 },
+  },
+  {
+    id: 'church-bernard-clairvaux',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1115,
+    endYear: 1153,
+    approximate: true,
+    title: 'Bernard of Clairvaux — Cistercian Reform',
+    description:
+      'Bernard entered the newly reformed Cistercian order at Citeaux in 1113 and founded the abbey of Clairvaux in 1115, which became the motherhouse of 68 daughter monasteries. His mystical commentaries on the Song of Solomon (86 sermons), his treatise On Loving God, and his hymns (including "O Sacred Head Now Wounded") made him the most influential churchman of the twelfth century. He preached the Second Crusade (1147) and was instrumental in condemning the rationalist theology of Peter Abelard at the Council of Sens (1140).',
+    significance:
+      'Bernard revitalized Western monasticism through the Cistercian reform, emphasizing manual labor, simplicity, and contemplative prayer over the liturgical elaboration of Cluny. His mystical theology of love and union with Christ influenced later mystics including Meister Eckhart, Teresa of Avila, and Martin Luther, who called him "the best monk that ever lived."',
+    historicalContext:
+      'Bernard operated at the intersection of spiritual and political authority. He mediated papal schisms, advised kings, and shaped crusading ideology. His clash with Abelard represented the tension between monastic contemplation and emerging scholastic rationalism that would define twelfth-century intellectual life.',
+    figures: ['Bernard of Clairvaux'],
+    location: { name: 'Clairvaux', lat: 48.1508, lng: 4.7753 },
+  },
+  {
+    id: 'church-fourth-lateran',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1215,
+    approximate: false,
+    title: 'Fourth Lateran Council',
+    description:
+      'Pope Innocent III convened the Fourth Lateran Council, the largest medieval council, with over 400 bishops, 800 abbots and priors, and representatives of secular rulers. The council issued 70 decrees, including the first official use of the term "transubstantiation" to describe the eucharistic change of bread and wine into the body and blood of Christ (Canon 1). It mandated annual confession and communion for all Christians (Canon 21), regulated preaching, and authorized the crusade against the Albigensian heresy.',
+    significance:
+      'The Fourth Lateran Council represents the high-water mark of medieval papal authority and defined doctrines that would become central points of contention in the Reformation. The doctrine of transubstantiation, the requirement of sacramental confession, and the assertion of papal supremacy were all later challenged by Protestant reformers who sought to return to what they considered more biblical foundations.',
+    historicalContext:
+      'Innocent III was the most powerful pope of the medieval period, asserting temporal authority over kings and claiming to be the Vicar of Christ on earth. The council met in the context of the Albigensian Crusade against the Cathar heresy in southern France and the broader consolidation of ecclesiastical power that characterized the thirteenth century.',
+    figures: ['Innocent III'],
+    location: { name: 'Rome', lat: 41.9022, lng: 12.4539 },
+  },
+  {
+    id: 'church-francis-assisi',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1209,
+    approximate: true,
+    title: 'Francis of Assisi Founds the Franciscans',
+    description:
+      'Francis of Assisi, the son of a wealthy merchant, renounced his inheritance and embraced radical poverty after hearing the gospel reading of Matthew 10:7-10 ("Take no gold, nor silver... no bag for your journey"). He gathered companions and received verbal approval from Pope Innocent III for a simple rule of life based on literal obedience to Jesus\' instructions to the apostles. The Franciscan movement grew explosively, with thousands joining within a decade.',
+    significance:
+      'The Franciscan order, along with the Dominicans, represented a revolutionary new form of religious life: mendicant friars who lived among the people rather than in cloistered monasteries. Francis\'s radical identification with Christ\'s poverty and suffering, culminating in his reported reception of the stigmata in 1224, inspired a renewal of popular devotion that revitalized medieval Christianity.',
+    historicalContext:
+      'Francis emerged during a period of growing wealth, urbanization, and ecclesiastical corruption in Western Europe. His movement addressed the same dissatisfaction with institutional Christianity that had fueled heretical movements like the Cathars and Waldensians, but channeled it into orthodox devotion. The Franciscans and Dominicans quickly became the leading intellectual and pastoral forces in the medieval church.',
+    figures: ['Francis of Assisi'],
+    location: { name: 'Assisi', lat: 43.0707, lng: 12.6196 },
+  },
+  {
+    id: 'church-aquinas',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1265,
+    endYear: 1274,
+    approximate: true,
+    title: 'Thomas Aquinas — Summa Theologiae',
+    description:
+      'Thomas Aquinas, a Dominican friar, composed the Summa Theologiae, the most comprehensive systematic theology of the medieval period. Drawing on Aristotelian philosophy (newly available through Arabic and Latin translations), patristic theology (especially Augustine and John of Damascus), and Scripture, Aquinas addressed virtually every theological question in a rigorous question-and-answer format spanning three parts and thousands of articles. He died in 1274, leaving the work unfinished.',
+    significance:
+      'The Summa Theologiae became the standard textbook of Catholic theology and was placed on the altar alongside the Bible at the Council of Trent. Aquinas\'s synthesis of faith and reason, his doctrine of analogy, his natural law ethics, and his sacramental theology shaped Catholic thought definitively. The Reformers both drew upon and reacted against his legacy, particularly his teaching on grace, merit, and the relationship between nature and grace.',
+    historicalContext:
+      'Aquinas wrote during the intellectual ferment of the thirteenth-century university system, when the rediscovery of Aristotle\'s complete works through Arabic translations (particularly those of Averroes and Avicenna) posed a profound challenge to Christian theology. His achievement was to demonstrate that Aristotelian philosophy could serve as a handmaid to Christian theology without compromising revealed truth.',
+    figures: ['Thomas Aquinas'],
+    location: { name: 'Paris / Naples', lat: 48.8566, lng: 2.3522 },
+  },
+  {
+    id: 'church-papal-schism',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1378,
+    endYear: 1417,
+    approximate: false,
+    title: 'Western Papal Schism',
+    description:
+      'Following the contentious election of Urban VI in 1378, a faction of cardinals declared the election invalid and elected Clement VII as a rival pope, who established his court at Avignon. For nearly forty years, Western Christendom was divided between two (and eventually three) competing papal claimants, each excommunicating the others\' followers. The schism was finally resolved at the Council of Constance (1414-1418), which deposed all three claimants and elected Martin V.',
+    significance:
+      'The Western Schism severely damaged papal credibility and authority. The spectacle of rival popes excommunicating each other undermined claims of papal infallibility and universal jurisdiction. The conciliarist movement that emerged argued that a general council held authority over the pope, a position that, though eventually defeated, foreshadowed the Reformation\'s challenge to papal supremacy.',
+    historicalContext:
+      'The schism followed the Avignon Papacy (1309-1377), during which the popes resided in southern France under French royal influence, a period Petrarch called the "Babylonian Captivity of the Church." Catherine of Siena had successfully urged Pope Gregory XI to return to Rome in 1377, but his death triggered the crisis that produced the schism.',
+    figures: ['Urban VI', 'Clement VII'],
+    location: { name: 'Rome / Avignon', lat: 41.9022, lng: 12.4539 },
+  },
+  {
+    id: 'church-wycliffe',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1382,
+    approximate: true,
+    title: 'Wycliffe\'s English Bible and Reform',
+    description:
+      'John Wycliffe, an Oxford theologian, supervised the first complete translation of the Bible into English (from the Latin Vulgate) and articulated a program of church reform that anticipated the Reformation by over a century. He argued that Scripture alone is the supreme authority for Christian faith and practice, denied transubstantiation, rejected the papacy as an institution without biblical warrant, and insisted that the Bible should be accessible to every literate person in their own language. His followers, the Lollards, carried his teachings across England.',
+    significance:
+      'Wycliffe is called the "Morning Star of the Reformation." His insistence on sola scriptura (Scripture alone), his rejection of papal claims, and his demand for vernacular Scripture directly anticipated Luther, Calvin, and Tyndale. The Council of Constance posthumously condemned him in 1415 and ordered his remains exhumed and burned.',
+    historicalContext:
+      'Wycliffe was protected during his lifetime by John of Gaunt and the English crown, who found his anti-papal arguments politically useful during the Western Schism. His academic positions at Oxford gave his ideas intellectual credibility. The Lollard movement he inspired was driven underground by persecution under Henry IV but survived as an underground tradition until the Reformation.',
+    figures: ['John Wycliffe'],
+    location: { name: 'Oxford', lat: 51.7520, lng: -1.2577 },
+  },
+  {
+    id: 'church-hus',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1415,
+    approximate: false,
+    title: 'Jan Hus Martyred at Constance',
+    description:
+      'Jan Hus, rector of the University of Prague and the leading preacher in Bohemia, was summoned to the Council of Constance under a promise of safe conduct from Emperor Sigismund. Influenced by Wycliffe\'s writings, Hus had preached against indulgences, clerical corruption, and papal authority, insisting that Christ alone is the head of the church. The council condemned him as a heretic, and he was burned at the stake on July 6, 1415, reportedly singing hymns as the flames consumed him.',
+    significance:
+      'Hus\'s execution made him a national hero in Bohemia and sparked the Hussite Wars (1419-1434), the first successful military resistance to papal authority in European history. His followers maintained an independent church in Bohemia that anticipated Protestant principles, including communion in both kinds for the laity. Luther later acknowledged his debt to Hus, declaring at Leipzig (1519), "We are all Hussites without knowing it."',
+    historicalContext:
+      'The Council of Constance (1414-1418) was primarily convened to end the Western Schism, but also addressed reform and heresy. Hus traveled to Constance believing the emperor\'s safe conduct would protect him. The council\'s violation of this pledge became a cause celebre that discredited both conciliar and papal authority in the eyes of many, paving the way for the Reformation a century later.',
+    figures: ['Jan Hus'],
+    location: { name: 'Constance', lat: 47.6779, lng: 9.1732 },
+  },
+  {
+    id: 'church-council-florence',
+    track: 'church',
+    era: 'high-late-medieval-church',
+    year: 1439,
+    approximate: false,
+    title: 'Council of Florence — Failed Reunion',
+    description:
+      'The Council of Florence (also called Basel-Ferrara-Florence) achieved a short-lived reunion between the Roman Catholic and Eastern Orthodox churches. Byzantine Emperor John VIII Palaiologos and Patriarch Joseph II of Constantinople traveled to Italy seeking Western military aid against the Ottoman Turks. After prolonged debates on the filioque, papal primacy, purgatory, and the eucharist, the Greek delegation signed the decree of union (Laetentur Caeli) on July 6, 1439.',
+    significance:
+      'The reunion was repudiated by the Orthodox faithful and most Eastern clergy upon the delegates\' return. Mark of Ephesus, the one Orthodox bishop who refused to sign, was hailed as a hero. The failure demonstrated that the theological and ecclesial differences between East and West had become irreconcilable through diplomatic means. The council also defined the doctrine of purgatory and papal primacy in terms that would later be contested by the Reformers.',
+    historicalContext:
+      'The council met against the backdrop of the Ottoman threat to Constantinople, which would fall in 1453. The Greek delegation signed partly under political duress, needing Western military assistance. The council\'s definitions of papal primacy and purgatory reflected Western theological development that had occurred independently of Eastern input since the Great Schism.',
+    figures: ['John VIII Palaiologos'],
+    location: { name: 'Florence', lat: 43.7696, lng: 11.2558 },
+  },
+
+  // ── Protestant Reformation (1500–1650) ────────────────────
+  {
+    id: 'church-95-theses',
+    track: 'church',
+    era: 'reformation',
+    year: 1517,
+    approximate: false,
+    title: 'Luther\'s 95 Theses',
+    description:
+      'On October 31, 1517, Martin Luther, an Augustinian friar and professor of theology at the University of Wittenberg, posted his Ninety-Five Theses on the door of the Castle Church. The theses challenged the sale of indulgences, particularly the campaign of Johann Tetzel, who promised that purchasing an indulgence could release souls from purgatory. Luther argued that the pope had no authority over purgatory, that true repentance involves the entire life of the believer (Thesis 1), and that Christians should be taught that buying pardons does not compare with being forgiven by Christ through faith. Though written in Latin for academic debate, the theses were quickly translated into German and spread across Europe within weeks thanks to the printing press.',
+    significance:
+      'The 95 Theses are traditionally regarded as the spark that ignited the Protestant Reformation, the most consequential division in Western Christianity since the Great Schism. Luther\'s challenge to indulgences quickly expanded into a comprehensive critique of papal authority, sacramental theology, and the doctrine of justification, leading to the recovery of sola scriptura (Scripture alone), sola fide (faith alone), and sola gratia (grace alone) as foundational Protestant principles.',
+    scripture: 'Romans 1:17; Romans 3:21-28; Ephesians 2:8-9',
+    historicalContext:
+      'Luther\'s protest emerged from a convergence of forces: widespread popular resentment of ecclesiastical corruption, the humanist recovery of biblical languages (Erasmus had published his Greek New Testament in 1516), and the political interests of German princes who chafed under papal taxation. The printing press, invented by Gutenberg only sixty years earlier, enabled Luther\'s ideas to spread with unprecedented speed, making him the first figure in history whose message was amplified by mass media.',
+    figures: ['Martin Luther', 'Johann Tetzel'],
+    location: { name: 'Wittenberg', lat: 51.8671, lng: 12.6368 },
+  },
+  {
+    id: 'church-diet-worms',
+    track: 'church',
+    era: 'reformation',
+    year: 1521,
+    approximate: false,
+    title: 'Diet of Worms — "Here I Stand"',
+    description:
+      'Emperor Charles V summoned Martin Luther to the Imperial Diet at Worms to answer charges of heresy. On April 18, 1521, Luther was presented with a table of his writings and asked to recant. After a day\'s reflection, he delivered his famous reply: "Unless I am convinced by the testimony of the Scriptures or by clear reason... I cannot and will not recant anything, since it is neither safe nor right to go against conscience. Here I stand. I can do no other. God help me. Amen." The emperor issued the Edict of Worms, declaring Luther an outlaw, but Elector Frederick the Wise arranged his "kidnapping" to the Wartburg Castle, where Luther translated the New Testament into German in eleven weeks.',
+    significance:
+      'Luther\'s stand at Worms established the principle of individual conscience informed by Scripture against institutional ecclesiastical authority. His German New Testament (published September 1522) was a landmark of vernacular Bible translation that shaped the modern German language and inspired translations across Europe, including Tyndale\'s English New Testament (1526). The event marks the point of no return for the Reformation — reconciliation with Rome was no longer possible.',
+    scripture: 'Acts 5:29; 2 Timothy 3:16-17',
+    historicalContext:
+      'Charles V, newly elected Holy Roman Emperor at age 19, was committed to maintaining Catholic unity in his vast domains. However, the political fragmentation of the Holy Roman Empire into hundreds of semi-autonomous principalities meant he could not enforce the edict. German princes who protected Luther gained both religious independence and political leverage against the emperor, beginning the process that would culminate in the Peace of Augsburg (1555).',
+    figures: ['Martin Luther', 'Charles V', 'Frederick the Wise'],
+    location: { name: 'Worms', lat: 49.6341, lng: 8.3507 },
+  },
+  {
+    id: 'church-augsburg-confession',
+    track: 'church',
+    era: 'reformation',
+    year: 1530,
+    approximate: false,
+    title: 'Augsburg Confession',
+    description:
+      'Philip Melanchthon, Luther\'s closest collaborator, drafted the Augsburg Confession and presented it to Emperor Charles V at the Imperial Diet of Augsburg on June 25, 1530. The confession articulated Lutheran theology in 28 articles, covering justification by faith alone, the authority of Scripture, the proper distinction between Law and Gospel, and the nature of the church and sacraments. Written in a deliberately irenic tone, it aimed to demonstrate that Lutheran teaching was in continuity with the ancient catholic faith and departed only from medieval additions that lacked scriptural warrant.',
+    significance:
+      'The Augsburg Confession became the foundational confessional document of Lutheranism and the model for subsequent Protestant confessions of faith. Its presentation at an imperial diet gave the Reformation formal political recognition. The confession\'s careful balance of evangelical conviction and catholic continuity established the pattern of confessional Protestantism that would define European Christianity for centuries.',
+    scripture: 'Romans 3:21-26; Romans 4:5; Galatians 2:16',
+    historicalContext:
+      'Charles V called the Diet of Augsburg hoping to resolve the religious division threatening his empire. The Ottoman Turks under Suleiman the Magnificent had besieged Vienna in 1529, and the emperor needed Protestant military support. This political leverage gave the Lutherans an opportunity to present their case formally. When reconciliation failed, the Protestant princes formed the Schmalkaldic League (1531) for mutual defense.',
+    figures: ['Philip Melanchthon', 'Martin Luther', 'Charles V'],
+    location: { name: 'Augsburg', lat: 48.3705, lng: 10.8978 },
+  },
+  {
+    id: 'church-act-supremacy',
+    track: 'church',
+    era: 'reformation',
+    year: 1534,
+    approximate: false,
+    title: 'English Reformation — Act of Supremacy',
+    description:
+      'The English Parliament passed the Act of Supremacy, declaring King Henry VIII the "Supreme Head on earth of the Church of England," severing England\'s allegiance to the papacy. The immediate cause was Pope Clement VII\'s refusal to annul Henry\'s marriage to Catherine of Aragon, but the act built on longstanding English anti-papal sentiment and the influence of reformers like Thomas Cranmer and Thomas Cromwell. The dissolution of the monasteries (1536-1541) followed, transferring vast ecclesiastical wealth to the crown and gentry.',
+    significance:
+      'The English Reformation created a distinct national church that would develop its own theological identity, combining Catholic liturgical tradition with Protestant doctrine. The Church of England\'s via media (middle way) between Rome and Geneva became the basis of the worldwide Anglican Communion. The dissolution of the monasteries was the largest redistribution of property in English history since the Norman Conquest, permanently altering the social and economic landscape.',
+    scripture: 'Romans 13:1-7; 1 Peter 2:13-17',
+    historicalContext:
+      'Henry\'s break with Rome was initially political rather than theological — he died believing in transubstantiation and clerical celibacy. True theological reform came under his successors: Edward VI\'s reign (1547-1553) saw Cranmer\'s Book of Common Prayer and the Forty-Two Articles. After Mary I\'s brief Catholic restoration (1553-1558), Elizabeth I\'s Settlement of 1559 established the moderate Protestantism that defined Anglicanism.',
+    figures: ['Henry VIII', 'Thomas Cranmer', 'Thomas More'],
+    location: { name: 'London', lat: 51.5074, lng: -0.1278 },
+  },
+  {
+    id: 'church-calvin-institutes',
+    track: 'church',
+    era: 'reformation',
+    year: 1536,
+    approximate: false,
+    title: 'Calvin\'s Institutes of the Christian Religion',
+    description:
+      'John Calvin, a French lawyer turned reformer, published the first edition of his Institutes of the Christian Religion in Basel at age 26. Originally a slim six-chapter handbook, it grew through successive editions into the most comprehensive and influential systematic theology of the Reformation (final edition 1559, 80 chapters in four books). Calvin settled in Geneva in 1536 at the urging of Guillaume Farel and transformed the city into a model Reformed community, establishing a consistory for church discipline, an academy for training ministers, and a system of governance that influenced republican political theory.',
+    significance:
+      'Calvin\'s Institutes provided the Reformed tradition with its definitive theological framework: the sovereignty of God, unconditional election, the authority of Scripture, covenant theology, and the "third use of the law" as a guide for Christian living. His theology shaped the Reformed churches of Switzerland, France (Huguenots), the Netherlands, Scotland (Knox), England (Puritans), and eventually colonial America. His emphasis on God\'s sovereignty over all of life profoundly influenced Western political, economic, and intellectual development.',
+    scripture: 'Romans 8:28-30; Romans 9:10-24; Ephesians 1:3-14; John 6:37-44',
+    historicalContext:
+      'Calvin fled France after the Affair of the Placards (1534), when anti-Mass posters were placed even on the door of King Francis I\'s bedchamber, triggering a wave of persecution against French Protestants. Basel, where Calvin published the first Institutes, was a center of humanist learning and printing. Geneva\'s strategic location between France, Italy, and the German lands made it a natural hub for the international Reformed movement.',
+    figures: ['John Calvin', 'Guillaume Farel'],
+    location: { name: 'Geneva', lat: 46.2044, lng: 6.1432 },
+  },
+  {
+    id: 'church-council-trent',
+    track: 'church',
+    era: 'reformation',
+    year: 1545,
+    endYear: 1563,
+    approximate: false,
+    title: 'Council of Trent — Counter-Reformation',
+    description:
+      'The Council of Trent, convened by Pope Paul III and meeting in three sessions over eighteen years (1545-1547, 1551-1552, 1562-1563), was the Catholic Church\'s definitive response to the Protestant Reformation. The council reaffirmed and clarified Catholic doctrine on every point contested by the Reformers: justification by faith and works together, the seven sacraments, transubstantiation, the authority of Scripture and tradition equally, the legitimacy of indulgences, purgatory, the veneration of saints, and papal supremacy. It also enacted sweeping disciplinary reforms, including the establishment of seminaries for priestly training, requirements for bishops to reside in their dioceses, and the reform of religious orders.',
+    significance:
+      'Trent defined Roman Catholic identity for the next four centuries until the Second Vatican Council (1962-1965). Its doctrinal decrees drew clear lines between Catholic and Protestant teaching, ending hopes of reunification. Its disciplinary reforms addressed many of the legitimate grievances that had fueled the Reformation, producing a revitalized, better-educated, and more disciplined Catholic clergy. The council launched the Counter-Reformation, which recovered much of Central Europe for Catholicism through the Jesuits, reformed religious orders, and Catholic political power.',
+    scripture: 'James 2:14-26; John 6:53-56; Matthew 16:18-19',
+    historicalContext:
+      'The council was delayed for decades by the rivalry between Charles V (who wanted doctrinal reconciliation with Protestants) and the papacy (which feared a council might assert authority over the pope). Meeting in Trent, an imperial city on the Italian side of the Alps, was a compromise. The Jesuit order, founded by Ignatius of Loyola in 1540, provided the intellectual and missionary energy for the Counter-Reformation that Trent authorized.',
+    figures: ['Pope Paul III', 'Charles V'],
+    location: { name: 'Trent', lat: 46.0748, lng: 11.1217 },
+  },
+  {
+    id: 'church-peace-augsburg',
+    track: 'church',
+    era: 'reformation',
+    year: 1555,
+    approximate: false,
+    title: 'Peace of Augsburg',
+    description:
+      'The Peace of Augsburg, signed on September 25, 1555, established the principle of cuius regio, eius religio ("whose realm, his religion"), granting each prince within the Holy Roman Empire the right to determine whether his territory would be Catholic or Lutheran. The settlement recognized Lutheranism as a legal religion alongside Catholicism for the first time, but excluded Calvinists, Anabaptists, and other Reformed groups. An "ecclesiastical reservation" clause attempted to prevent further Protestant expansion by requiring Catholic bishops who converted to forfeit their territories.',
+    significance:
+      'The Peace of Augsburg was the first permanent legal recognition of religious pluralism in European history. It ended decades of religious warfare within the Holy Roman Empire, though only temporarily — the exclusion of Calvinists and unresolved tensions led eventually to the catastrophic Thirty Years\' War (1618-1648). The principle of cuius regio, eius religio established the framework of confessional states that would define European politics until the Enlightenment.',
+    historicalContext:
+      'Charles V, exhausted by decades of fruitless attempts to restore religious unity, abdicated shortly after the peace was signed, dividing his domains between his son Philip II (Spain, Netherlands, Italy) and his brother Ferdinand I (the Empire). The peace reflected the political reality that the emperor could not defeat the Protestant princes militarily, especially while fighting the Ottoman Turks on his eastern frontier.',
+    figures: ['Charles V', 'Ferdinand I'],
+    location: { name: 'Augsburg', lat: 48.3705, lng: 10.8978 },
+  },
 ];
