@@ -3,6 +3,15 @@ import type { Era } from '@/lib/types';
 export const eras: Era[] = [
   // OT eras
   {
+    id: 'primeval',
+    track: 'ot',
+    label: 'Primeval History',
+    start: -3500,
+    end: -2000,
+    color: '#6B8E6B',
+    summary: 'The earliest chapters of Genesis recount Creation, the Fall, the Flood, and the scattering at Babel. These narratives establish foundational theological themes — God as Creator, human sinfulness, divine judgment and mercy, and the promise of redemption — that run through the rest of Scripture.',
+  },
+  {
     id: 'patriarchs',
     track: 'ot',
     label: 'Patriarchs',

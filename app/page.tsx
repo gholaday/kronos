@@ -7,9 +7,8 @@ import type { Track, ConnectionType, Era } from '@/lib/types';
 import { ZOOM_MIN, ZOOM_MAX } from '@/lib/constants';
 import { panOffsetToCenter, zoomAtPoint, clampPanOffset } from '@/lib/timeline-math';
 import Timeline from '@/components/timeline/Timeline';
-import EventCard from '@/components/timeline/EventCard';
+import EventDetailPanel from '@/components/timeline/EventDetailPanel';
 import Header from '@/components/controls/Header';
-import ZoomControls from '@/components/controls/ZoomControls';
 import ConnectionsView from '@/components/connections/ConnectionsView';
 import { eventsOT } from '@/data/events-ot';
 import { eventsNT } from '@/data/events-nt';
@@ -153,6 +152,8 @@ export default function Home() {
         onToggleConnection={toggleConnection}
         activeView={activeView}
         onViewChange={setActiveView}
+        zoom={zoom}
+        onZoomDelta={handleZoomDelta}
       />
 
       {activeView === 'timeline' ? (
@@ -172,19 +173,31 @@ export default function Home() {
               onSelectEvent={setSelectedEventId}
               onHoverEvent={setHoveredEventId}
             />
-            <ZoomControls zoom={zoom} onZoomDelta={handleZoomDelta} />
+
           </main>
 
-          {/* Event detail card */}
-          <AnimatePresence mode="wait">
+          {/* Prompt or event detail card */}
+          <AnimatePresence>
+            {!selectedEvent && (
+              <div
+                className="shrink-0 flex items-center justify-center py-3 border-t border-[var(--color-border)]"
+                style={{
+                  fontFamily: 'var(--font-ui)',
+                  fontSize: 13,
+                  color: 'var(--color-text-secondary)',
+                }}
+              >
+                Select an event to explore its details and location
+              </div>
+            )}
             {selectedEvent && (
-              <EventCard
-                key={selectedEvent.id}
+              <EventDetailPanel
                 event={selectedEvent}
                 crossRefs={crossReferences.filter(
                   (r) => r.sourceEventId === selectedEvent.id || r.targetEventId === selectedEvent.id
                 )}
                 allEvents={allEvents}
+                eras={eras}
                 onClose={() => setSelectedEventId(null)}
                 onNavigate={handleNavigateToEvent}
               />

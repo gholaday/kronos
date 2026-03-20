@@ -192,6 +192,230 @@ export const crossReferences: CrossReference[] = [
     explanation: 'Ezekiel envisioned a glorified future temple from which living water flowed, where God would dwell with His people forever. Revelation draws extensively on this imagery, depicting the New Jerusalem where God dwells directly among humanity, with the river of life flowing from His throne, bringing Ezekiel\'s vision to its ultimate and eternal fulfillment.',
   },
 
+  // ── Deep Typological & Thematic OT↔NT Connections ──────────────
+
+  // 1. Noah's Flood → Baptism (water/salvation)
+  {
+    id: 'xref-flood-baptism',
+    sourceEventId: 'ot-flood',
+    targetEventId: 'nt-baptism',
+    type: 'type-antitype',
+    label: 'Salvation through water',
+    otReference: 'Genesis 6-8; 1 Peter 3:20-21',
+    ntReference: '1 Peter 3:20-21',
+    explanation: 'Peter explicitly connects the flood waters to baptism: "In [the ark] only a few people, eight in all, were saved through water, and this water symbolizes baptism that now saves you also" (1 Peter 3:20-21). As Noah\'s family passed through the waters of judgment in the ark and emerged into a renewed creation, so believers pass through the waters of baptism into new life in Christ. The ark itself — salvation through wood upon water — prefigures the cross.',
+  },
+  // 2. Bronze Serpent → Crucifixion
+  {
+    id: 'xref-bronze-serpent-crucifixion',
+    sourceEventId: 'ot-bronze-serpent',
+    targetEventId: 'nt-crucifixion',
+    type: 'type-antitype',
+    label: 'Lifted up for healing',
+    otReference: 'Numbers 21:8-9',
+    ntReference: 'John 3:14-15',
+    explanation: 'Jesus drew an explicit typological connection between Moses\' bronze serpent and His own crucifixion: "Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up, that everyone who believes may have eternal life in him" (John 3:14-15). In both cases, the instrument associated with death is raised on a pole, and those who look upon it in faith receive life. The remedy for the curse of sin is displayed publicly on a stake for all to see.',
+  },
+  // 3. Jonah → Resurrection (sign of Jonah)
+  {
+    id: 'xref-jonah-resurrection',
+    sourceEventId: 'ot-jonah',
+    targetEventId: 'nt-resurrection',
+    type: 'type-antitype',
+    label: 'The sign of Jonah',
+    otReference: 'Jonah 1:17',
+    ntReference: 'Matthew 12:39-40',
+    explanation: 'When asked for a miraculous sign, Jesus declared that the only sign given would be the sign of Jonah: "For as Jonah was three days and three nights in the belly of a huge fish, so the Son of Man will be three days and three nights in the heart of the earth" (Matthew 12:40). Jonah\'s descent into the deep and his being disgorged alive on the third day prefigure Christ\'s burial and bodily resurrection. Both events vindicate God\'s messenger and lead to the repentance of the nations.',
+  },
+  // 4. Ruth/Kinsman-Redeemer → Crucifixion (Christ as Redeemer)
+  {
+    id: 'xref-ruth-redeemer',
+    sourceEventId: 'ot-ruth-boaz',
+    targetEventId: 'nt-crucifixion',
+    type: 'type-antitype',
+    label: 'The kinsman-redeemer',
+    otReference: 'Ruth 4:1-10',
+    ntReference: 'Galatians 3:13; 4:4-5; Hebrews 2:14-17',
+    explanation: 'Boaz fulfilled the three requirements of the kinsman-redeemer (go\'el): he was a near relative, he had the resources to redeem, and he was willing to act. Christ fulfills the same pattern on a cosmic scale. He became a near kinsman by taking on human nature (Hebrews 2:14-17), He possessed the infinite resources of His sinless life to pay the price of redemption, and He willingly laid down His life to redeem His people from the curse of the law (Galatians 3:13). Like Ruth the Moabitess, Gentile believers are brought into God\'s covenant family through the Redeemer.',
+  },
+  // 5. Joshua crossing Jordan → Baptism of Jesus (same name, water crossing)
+  {
+    id: 'xref-joshua-baptism',
+    sourceEventId: 'ot-crossing-jordan',
+    targetEventId: 'nt-baptism',
+    type: 'type-antitype',
+    label: 'Joshua/Jesus leads through the Jordan',
+    otReference: 'Joshua 3:7-17',
+    ntReference: 'Matthew 3:13-17',
+    explanation: 'Joshua (Yehoshua, "the Lord saves") led Israel through the Jordan River into the Promised Land, with the waters supernaturally parted. Jesus (the Greek form of the same name) was baptized in the same Jordan River, inaugurating the new exodus and the entry into the kingdom of God. Both events involve divine validation of the leader (Joshua is exalted before Israel in Joshua 3:7; Jesus receives the Father\'s declaration "This is my beloved Son" in Matthew 3:17) and the crossing of water as a threshold into a new stage of God\'s redemptive plan.',
+  },
+  // 6. Day of Atonement → Crucifixion (sacrifice and atonement)
+  {
+    id: 'xref-atonement-crucifixion',
+    sourceEventId: 'ot-day-of-atonement',
+    targetEventId: 'nt-crucifixion',
+    type: 'type-antitype',
+    label: 'The once-for-all atonement',
+    otReference: 'Leviticus 16',
+    ntReference: 'Hebrews 9:11-14, 24-28',
+    explanation: 'On Yom Kippur the high priest entered the Most Holy Place with the blood of sacrificial animals to atone for Israel\'s sins. Hebrews argues that Christ is both the superior high priest and the superior sacrifice: "He entered the Most Holy Place once for all by his own blood, thus obtaining eternal redemption" (Hebrews 9:12). The two goats of Leviticus 16 — one slain and one sent away bearing sins — find their unified fulfillment in Christ, who both dies as the atoning sacrifice and carries sins away permanently (Hebrews 9:26, 28).',
+  },
+  // 7. Melchizedek → Ascension/Heavenly Priesthood (priesthood progression)
+  {
+    id: 'xref-melchizedek-ascension',
+    sourceEventId: 'ot-melchizedek',
+    targetEventId: 'nt-ascension',
+    type: 'type-antitype',
+    label: 'Priest forever after the order of Melchizedek',
+    otReference: 'Genesis 14:18-20; Psalm 110:4',
+    ntReference: 'Hebrews 5:5-10; 6:20-7:28',
+    explanation: 'Melchizedek was uniquely both king of Salem and priest of God Most High, appearing in Genesis without genealogy or recorded death. Psalm 110:4 prophesied a coming figure who would be "a priest forever after the order of Melchizedek." Hebrews identifies the ascended Christ as the fulfillment: He combines the offices of Davidic king and eternal high priest, holding a priesthood that is permanent and non-transferable because He lives forever (Hebrews 7:24-25). His priesthood supersedes the Aaronic order, which was temporary and required constant repetition.',
+  },
+  // 8. Creation → New Creation in Revelation
+  {
+    id: 'xref-creation-new-creation',
+    sourceEventId: 'ot-creation',
+    targetEventId: 'nt-revelation',
+    type: 'thematic',
+    label: 'Creation and new creation',
+    otReference: 'Genesis 1-2',
+    ntReference: 'Revelation 21:1-5; 22:1-5',
+    explanation: 'The Bible\'s narrative arc runs from the creation of heaven and earth (Genesis 1:1) to the new heaven and new earth (Revelation 21:1). In Eden, God walked with humanity in a garden with the tree of life and a river (Genesis 2:8-10); in the New Jerusalem, God dwells with His people beside the river of life flowing from His throne, with the tree of life bearing fruit for the healing of the nations (Revelation 22:1-2). Christ declares "Behold, I am making all things new" (Revelation 21:5), not abolishing creation but renewing it, bringing the original design to its intended consummation.',
+  },
+  // 9. Wilderness wandering (40 years) → Temptation (40 days)
+  {
+    id: 'xref-wilderness-temptation',
+    sourceEventId: 'ot-wilderness-wandering',
+    targetEventId: 'nt-temptation',
+    type: 'type-antitype',
+    label: 'Forty years, forty days',
+    otReference: 'Deuteronomy 8:2-5',
+    ntReference: 'Matthew 4:1-11',
+    explanation: 'Israel wandered forty years in the wilderness, tested by God to reveal what was in their hearts (Deuteronomy 8:2). They failed repeatedly — craving food, testing God, and turning to idolatry. Jesus was led by the Spirit into the wilderness for forty days of fasting and temptation, facing the same three categories of testing. He answered each temptation by quoting Deuteronomy (8:3, 6:16, 6:13), the very book that recounts Israel\'s failures, demonstrating that He is the faithful Israel who succeeds where the nation failed.',
+  },
+  // 10. Tabernacle → Birth of Jesus (incarnation)
+  {
+    id: 'xref-tabernacle-incarnation',
+    sourceEventId: 'ot-tabernacle',
+    targetEventId: 'nt-birth-of-jesus',
+    type: 'type-antitype',
+    label: 'God tabernacles among His people',
+    otReference: 'Exodus 40:34-38',
+    ntReference: 'John 1:14',
+    explanation: 'When the tabernacle was completed, the glory of the Lord filled it as a visible cloud (Exodus 40:34). John deliberately echoes this event: "The Word became flesh and dwelt [eskenosen, literally \'tabernacled\'] among us, and we have seen his glory" (John 1:14). The portable wilderness tent where God\'s presence resided among a pilgrim people was a shadow of the incarnation, in which God took up permanent residence in human flesh, making Christ\'s body the true and final dwelling place of divine glory.',
+  },
+  // 11. Rahab's scarlet cord → Crucifixion (redemption through faith)
+  {
+    id: 'xref-rahab-crucifixion',
+    sourceEventId: 'ot-rahab',
+    targetEventId: 'nt-crucifixion',
+    type: 'type-antitype',
+    label: 'The scarlet cord of redemption',
+    otReference: 'Joshua 2:18-21',
+    ntReference: 'Hebrews 11:31; Ephesians 2:8-9, 12-13',
+    explanation: 'Rahab, a Canaanite prostitute under the sentence of destruction, was saved when she tied a scarlet cord in her window — an act of faith in the God of Israel. Hebrews 11:31 commends her: "By faith the prostitute Rahab... was not killed with those who were disobedient." The scarlet cord echoes the Passover blood on the doorposts (Exodus 12:13) and anticipates the blood of Christ by which those who were "far off" are "brought near" (Ephesians 2:13). Rahab\'s story demonstrates that salvation comes by grace through faith to any who trust in God, regardless of background or moral history.',
+  },
+  // 12. Abraham's covenant meal with God → Last Supper (covenant meals)
+  {
+    id: 'xref-abraham-meal-last-supper',
+    sourceEventId: 'ot-call-of-abraham',
+    targetEventId: 'nt-last-supper',
+    type: 'covenant',
+    label: 'Covenant sealed with a meal',
+    otReference: 'Genesis 18:1-8; 15:9-18',
+    ntReference: 'Luke 22:20; 1 Corinthians 11:25',
+    explanation: 'Abraham hosted three divine visitors with bread, meat, and curds (Genesis 18:1-8), and the Abrahamic covenant was ratified with a sacrificial ceremony in which God alone passed between the pieces (Genesis 15:17). These covenant meals established the pattern of fellowship between God and His people sealed through sacrifice and shared food. At the Last Supper, Jesus declared "This cup is the new covenant in my blood" (Luke 22:20), transforming the Passover meal into the ratification feast of the new covenant, in which the sacrifice and the meal are united in the body and blood of Christ Himself.',
+  },
+  // 13. David anointed king → Triumphal Entry (Servant-King duality)
+  {
+    id: 'xref-david-king-triumphal',
+    sourceEventId: 'ot-david-king',
+    targetEventId: 'nt-triumphal-entry',
+    type: 'type-antitype',
+    label: 'The humble king enters his city',
+    otReference: '2 Samuel 5:1-10; Zechariah 9:9',
+    ntReference: 'Matthew 21:1-11',
+    explanation: 'David came to Jerusalem as God\'s anointed king, chosen despite his humble origins as a shepherd, and conquered the Jebusite stronghold to make it his capital. Jesus entered the same city as the Son of David, acclaimed by crowds shouting "Hosanna to the Son of David" (Matthew 21:9), yet riding a donkey in deliberate fulfillment of Zechariah 9:9: "See, your king comes to you, righteous and having salvation, lowly and riding on a donkey." Both kings embody the paradox of strength through humility — David the shepherd-warrior, Christ the servant-king who conquers through suffering.',
+  },
+  // 14. Day of Atonement priesthood → Ascension (Aaronic to heavenly priesthood)
+  {
+    id: 'xref-atonement-priesthood-ascension',
+    sourceEventId: 'ot-day-of-atonement',
+    targetEventId: 'nt-ascension',
+    type: 'type-antitype',
+    label: 'The high priest enters the presence of God',
+    otReference: 'Leviticus 16:2-3, 15-17',
+    ntReference: 'Hebrews 4:14-16; 9:24',
+    explanation: 'On the Day of Atonement, the Aaronic high priest entered the Most Holy Place behind the veil — the only person who could enter, and only on this one day each year — to sprinkle blood on the mercy seat in the very presence of God (Leviticus 16:15-17). Hebrews presents Christ\'s ascension as the antitype: "We have a great high priest who has ascended into heaven, Jesus the Son of God" (Hebrews 4:14). Christ entered not an earthly copy but "heaven itself, now to appear for us in God\'s presence" (Hebrews 9:24). The Aaronic priest emerged from the sanctuary to bless the waiting people; Christ will appear a second time to bring final salvation (Hebrews 9:28).',
+  },
+
+  // 15. Psalm 22 → Crucifixion (Davidic psalm of suffering)
+  {
+    id: 'xref-psalm22-crucifixion',
+    sourceEventId: 'ot-davidic-covenant',
+    targetEventId: 'nt-crucifixion',
+    type: 'prophecy-fulfillment',
+    label: 'The cry of dereliction',
+    otReference: 'Psalm 22:1, 16-18',
+    ntReference: 'Matthew 27:46; John 19:23-24',
+    explanation: 'Psalm 22 describes suffering in extraordinary detail: "My God, my God, why have you forsaken me?" (v. 1), "they have pierced my hands and feet" (v. 16), "they divide my garments among them, and for my clothing they cast lots" (v. 18). Jesus quoted Psalm 22:1 from the cross (Matthew 27:46), and John 19:23-24 explicitly identifies the casting of lots for Jesus\' garments as fulfillment of Psalm 22:18. The psalm is the most frequently cited OT passage in the passion narratives.',
+  },
+  // 16. Psalm 16 → Resurrection (not abandoned to the grave)
+  {
+    id: 'xref-psalm16-resurrection',
+    sourceEventId: 'ot-davidic-covenant',
+    targetEventId: 'nt-resurrection',
+    type: 'prophecy-fulfillment',
+    label: 'Not abandoned to the grave',
+    otReference: 'Psalm 16:8-11',
+    ntReference: 'Acts 2:25-32; 13:35-37',
+    explanation: 'Psalm 16:10 declares, "You will not abandon my soul to Sheol, or let your holy one see corruption." Peter quotes this psalm at length in his Pentecost sermon (Acts 2:25-31), arguing that David could not have been speaking of himself since David "both died and was buried, and his tomb is with us to this day" (Acts 2:29). David, as a prophet, foresaw the resurrection of the Christ. Paul makes the same argument in Acts 13:35-37. This is one of the earliest christological proof texts in apostolic preaching.',
+  },
+  // 17. Jeremiah's new covenant → Last Supper
+  {
+    id: 'xref-jeremiah-new-covenant',
+    sourceEventId: 'ot-fall-of-jerusalem',
+    targetEventId: 'nt-last-supper',
+    type: 'prophecy-fulfillment',
+    label: 'The new covenant in his blood',
+    otReference: 'Jeremiah 31:31-34',
+    ntReference: 'Luke 22:20; Hebrews 8:8-12',
+    explanation: 'Jeremiah prophesied that God would make "a new covenant with the house of Israel," unlike the Sinai covenant they broke, in which God\'s law would be written on hearts and sins remembered no more (Jeremiah 31:31-34). At the Last Supper, Jesus declared, "This cup that is poured out for you is the new covenant in my blood" (Luke 22:20), explicitly invoking Jeremiah\'s prophecy. Hebrews 8:8-12 quotes Jeremiah 31 at length as the definitive proof text for the new covenant\'s superiority.',
+  },
+  // 18. Elijah taken up → Ascension
+  {
+    id: 'xref-elijah-ascension',
+    sourceEventId: 'ot-elijah-carmel',
+    targetEventId: 'nt-ascension',
+    type: 'type-antitype',
+    label: 'Taken up to heaven',
+    otReference: '2 Kings 2:1-12',
+    ntReference: 'Acts 1:9-11',
+    explanation: 'Elijah was taken up to heaven in a whirlwind, with chariots of fire, while his disciple Elisha watched and received a double portion of his spirit (2 Kings 2:9-12). Jesus ascended to heaven while his disciples watched, and he promised they would receive the Holy Spirit\'s power (Acts 1:8-9). In both cases, the departure of the master is followed by an empowerment of those who remain to carry on the prophetic mission.',
+  },
+  // 19. Jacob's ladder → Transfiguration (heaven opened)
+  {
+    id: 'xref-jacob-ladder-transfiguration',
+    sourceEventId: 'ot-jacob-wrestles',
+    targetEventId: 'nt-transfiguration',
+    type: 'thematic',
+    label: 'Heaven opened, God\'s glory revealed',
+    otReference: 'Genesis 28:12-17',
+    ntReference: 'Matthew 17:1-9; John 1:51',
+    explanation: 'Jacob dreamed of a ladder reaching to heaven with angels ascending and descending, and declared "This is the gate of heaven" (Genesis 28:17). Jesus alludes to this in John 1:51: "You will see heaven opened, and the angels of God ascending and descending on the Son of Man," identifying himself as the true meeting point between heaven and earth. At the transfiguration, the heavens open, divine glory is revealed, and the heavenly voice speaks — the moment most fully embodying what Jacob\'s ladder symbolized.',
+  },
+  // 20. Hosea "Out of Egypt" → Flight to Egypt
+  {
+    id: 'xref-hosea-out-of-egypt',
+    sourceEventId: 'ot-exodus-passover',
+    targetEventId: 'nt-flight-to-egypt',
+    type: 'prophecy-fulfillment',
+    label: 'God\'s son called out of Egypt',
+    otReference: 'Hosea 11:1',
+    ntReference: 'Matthew 2:13-15',
+    explanation: 'Hosea 11:1 originally referred to Israel as God\'s "son" called out of Egypt at the Exodus. Matthew 2:15 applies this text typologically to Jesus\' return from Egypt after Herod\'s death, presenting Jesus as the true Israel who recapitulates the nation\'s history. This is a case of typological prophecy-fulfillment in which the NT author sees a deeper pattern at work in Israel\'s story being fulfilled in Christ.',
+  },
+
   // ── NT → Church History Cross-References ─────────────────────────
 
   // Historical echoes (martyrdom pattern)

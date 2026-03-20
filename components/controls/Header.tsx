@@ -1,6 +1,7 @@
 'use client';
 
 import type { Track, ConnectionType, Era } from '@/lib/types';
+import { ZOOM_MIN, ZOOM_MAX, ZOOM_STEP } from '@/lib/constants';
 import TrackToggles from './TrackToggles';
 import EraJumper from './EraJumper';
 import ConnectionFilter from './ConnectionFilter';
@@ -16,6 +17,8 @@ interface HeaderProps {
   onToggleConnection: (type: ConnectionType) => void;
   activeView: ViewMode;
   onViewChange: (view: ViewMode) => void;
+  zoom: number;
+  onZoomDelta: (delta: number) => void;
 }
 
 export default function Header({
@@ -27,6 +30,8 @@ export default function Header({
   onToggleConnection,
   activeView,
   onViewChange,
+  zoom,
+  onZoomDelta,
 }: HeaderProps) {
   return (
     <header className="border-b border-[var(--color-border)] bg-[var(--color-surface)] shrink-0">
@@ -89,6 +94,40 @@ export default function Header({
             <>
               <div className="w-px h-5 bg-[var(--color-border)]" />
               <EraJumper eras={eras} visibleTracks={visibleTracks} onJumpToEra={onJumpToEra} />
+
+              <div className="w-px h-5 bg-[var(--color-border)]" />
+              <div className="flex items-center gap-1">
+                <button
+                  onClick={() => onZoomDelta(-ZOOM_STEP)}
+                  disabled={zoom <= ZOOM_MIN}
+                  className="flex items-center justify-center rounded transition-colors disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[var(--color-bg)]"
+                  style={{
+                    width: 28,
+                    height: 28,
+                    fontFamily: 'var(--font-ui)',
+                    fontSize: 16,
+                    color: 'var(--color-text)',
+                    border: '1px solid var(--color-border)',
+                  }}
+                >
+                  -
+                </button>
+                <button
+                  onClick={() => onZoomDelta(ZOOM_STEP)}
+                  disabled={zoom >= ZOOM_MAX}
+                  className="flex items-center justify-center rounded transition-colors disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[var(--color-bg)]"
+                  style={{
+                    width: 28,
+                    height: 28,
+                    fontFamily: 'var(--font-ui)',
+                    fontSize: 16,
+                    color: 'var(--color-text)',
+                    border: '1px solid var(--color-border)',
+                  }}
+                >
+                  +
+                </button>
+              </div>
             </>
           )}
         </div>

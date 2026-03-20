@@ -27,6 +27,7 @@ export const COLORS = {
   border: '#C4B8A4',
 
   // OT eras
+  primeval: '#6B8E6B',
   patriarchs: '#C9A84C',
   exodusConquest: '#B8612A',
   judges: '#8B5E3C',
@@ -123,3 +124,12 @@ export const CONNECTION_STYLES: Record<ConnectionType, {
 export const TRACK_HEIGHT = 160;
 export const AXIS_HEIGHT = 44;
 export const ERA_BAND_OPACITY = 0.15;
+
+// Globe
+export const GLOBE_ALTITUDE_START = 2.5;
+export const GLOBE_ALTITUDE_ZOOMED = 1.2;
+export const GLOBE_ROTATION_MS = 800;
+export const GLOBE_RING_MAX_RADIUS = 2;
+export const GLOBE_RING_MAX_RADIUS_APPROX = 4;
+export const GLOBE_RING_PROPAGATION_SPEED = 2;
+export const GLOBE_RING_REPEAT_PERIOD = 1200;

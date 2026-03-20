@@ -2,6 +2,40 @@ import type { BiblicalEvent } from '@/lib/types';
 
 export const eventsOT: BiblicalEvent[] = [
   {
+    id: 'ot-creation',
+    track: 'ot',
+    era: 'primeval',
+    year: -3500,
+    approximate: true,
+    title: 'Creation',
+    scripture: 'Genesis 1-2',
+    description:
+      'God created the heavens and the earth in six days and rested on the seventh. He formed the first human from the dust of the ground and breathed life into him, placing him in the Garden of Eden. God created woman from the man\'s side as a suitable companion. He declared all of creation "very good" and gave humanity the mandate to be fruitful, multiply, and exercise stewardship over the earth.',
+    significance:
+      'The creation account establishes God as the sovereign origin of all things, defines humanity as made in His image, and introduces the pattern of Sabbath rest. These themes of original goodness, divine purpose, and cosmic order are recalled throughout Scripture and find their culmination in the new creation of Revelation 21-22.',
+    historicalContext:
+      'Genesis 1-2 stands in deliberate contrast to ancient Near Eastern creation myths such as the Babylonian Enuma Elish. Where pagan myths depict creation as the byproduct of divine conflict, Genesis presents a single God who creates by sovereign command, without struggle or opposition.',
+    figures: ['Adam', 'Eve'],
+    location: { name: 'Eden', lat: 31.0, lng: 35.0 },
+  },
+  {
+    id: 'ot-flood',
+    track: 'ot',
+    era: 'primeval',
+    year: -2500,
+    approximate: true,
+    title: 'Noah\'s Flood',
+    scripture: 'Genesis 6-9',
+    description:
+      'As human wickedness spread across the earth, God determined to destroy all living things through a catastrophic flood. He commanded Noah, the one righteous man of his generation, to build an ark of gopher wood and bring his family and pairs of every animal aboard. Rain fell for forty days and nights, and the floodwaters prevailed for 150 days. After the waters receded, Noah offered sacrifice, and God established a covenant never to destroy the earth by flood again, setting the rainbow as its sign.',
+    significance:
+      'The Flood narrative establishes the pattern of divine judgment and gracious salvation that recurs throughout Scripture. Noah\'s ark becomes a type of salvation through water and wood, explicitly connected to baptism in 1 Peter 3:20-21. The Noahic covenant is the first universal covenant in Scripture.',
+    historicalContext:
+      'Flood narratives appear widely in ancient Near Eastern literature, including the Epic of Gilgamesh and the Atrahasis Epic. While sharing some structural similarities, the Genesis account is distinctive in its monotheistic theology, its emphasis on human moral accountability, and its covenantal framework.',
+    figures: ['Noah'],
+    location: { name: 'Mountains of Ararat', lat: 39.7, lng: 44.3 },
+  },
+  {
     id: 'ot-call-of-abraham',
     track: 'ot',
     era: 'patriarchs',
@@ -17,6 +51,23 @@ export const eventsOT: BiblicalEvent[] = [
       'Ur was a prosperous Sumerian city-state in southern Mesopotamia. Haran, the midpoint of Abraham\'s journey, was a major trading hub on caravan routes connecting Mesopotamia to the Mediterranean world.',
     figures: ['Abraham'],
     location: { name: 'Ur / Haran', lat: 36.8667, lng: 39.0333 },
+  },
+  {
+    id: 'ot-melchizedek',
+    track: 'ot',
+    era: 'patriarchs',
+    year: -1950,
+    approximate: true,
+    title: 'Melchizedek Blesses Abraham',
+    scripture: 'Genesis 14:17-20',
+    description:
+      'After Abraham defeated the coalition of kings who had captured his nephew Lot, Melchizedek, king of Salem and priest of God Most High, brought out bread and wine and blessed Abraham. Abraham gave Melchizedek a tenth of everything he had taken in battle. Melchizedek appears without recorded genealogy, parentage, or death in the Genesis narrative.',
+    significance:
+      'Melchizedek represents a priesthood that precedes and transcends the Levitical order. Psalm 110:4 prophesies a coming ruler who is "a priest forever after the order of Melchizedek." The book of Hebrews (chapters 5-7) argues at length that Christ fulfills this Melchizedekian priesthood, which is superior to the Aaronic priesthood because it is eternal and not dependent on lineage.',
+    historicalContext:
+      'Salem is widely identified with Jerusalem (cf. Psalm 76:2). The combination of kingship and priesthood in a single figure was common in Canaanite city-states but was separated in Israel between the tribes of Judah and Levi. Melchizedek\'s unique status as both king and priest made him a fitting type of Christ, who holds both offices.',
+    figures: ['Abraham', 'Melchizedek'],
+    location: { name: 'Salem (Jerusalem)', lat: 31.7683, lng: 35.2137 },
   },
   {
     id: 'ot-binding-of-isaac',
@@ -104,6 +155,92 @@ export const eventsOT: BiblicalEvent[] = [
     location: { name: 'Mount Sinai', lat: 28.5394, lng: 33.9750 },
   },
   {
+    id: 'ot-tabernacle',
+    track: 'ot',
+    era: 'exodus-conquest',
+    year: -1445,
+    approximate: true,
+    title: 'Tabernacle Constructed',
+    scripture: 'Exodus 25-40',
+    description:
+      'God gave Moses detailed instructions on Mount Sinai for constructing the tabernacle, a portable sanctuary where God would dwell among His people during their wilderness journey. The skilled craftsmen Bezalel and Oholiab oversaw the construction using gold, silver, bronze, fine linen, and acacia wood. When the tabernacle was completed, the glory of the Lord filled it as a cloud, so that even Moses could not enter.',
+    significance:
+      'The tabernacle established the central pattern of Israelite worship: God dwelling in the midst of His people, approachable only through prescribed sacrifice and mediation. Its structure, furnishings, and rituals are interpreted in Hebrews 8-9 as shadows of heavenly realities fulfilled in Christ, the true tabernacle (John 1:14, Hebrews 8:2).',
+    historicalContext:
+      'The tabernacle\'s portable design suited Israel\'s nomadic wilderness existence. Its tripartite structure (outer court, Holy Place, Most Holy Place) parallels temple architecture found across the ancient Near East, while its theological function as the dwelling place of the invisible God distinguished it from pagan shrines housing idol images.',
+    figures: ['Moses', 'Bezalel'],
+    location: { name: 'Mount Sinai / Wilderness', lat: 28.5394, lng: 33.9750 },
+  },
+  {
+    id: 'ot-day-of-atonement',
+    track: 'ot',
+    era: 'exodus-conquest',
+    year: -1445,
+    approximate: true,
+    title: 'Day of Atonement Instituted',
+    scripture: 'Leviticus 16',
+    description:
+      'God prescribed Yom Kippur, the Day of Atonement, as the most solemn day in Israel\'s liturgical calendar. Once a year, the high priest entered the Most Holy Place with the blood of a bull and a goat to make atonement for the sins of the entire nation. A second goat, the scapegoat, was symbolically laden with the people\'s sins and driven into the wilderness, never to return.',
+    significance:
+      'The Day of Atonement is the supreme Old Testament ritual for dealing with sin, combining substitutionary sacrifice with the complete removal of guilt. Hebrews 9:11-14 identifies Christ as the ultimate high priest who entered the heavenly Most Holy Place once for all with His own blood, rendering the annual repetition of Yom Kippur unnecessary.',
+    historicalContext:
+      'The two-goat ritual is unique in the ancient Near East. Some scholars note parallels with Hittite elimination rituals that transferred impurity to an animal, but the theological framework of Leviticus 16 is distinctively Israelite. The scapegoat ritual was practiced at the Second Temple; the Mishnah (Yoma) preserves detailed traditions about its observance.',
+    figures: ['Aaron'],
+    location: { name: 'Tabernacle / Wilderness', lat: 28.5394, lng: 33.9750 },
+  },
+  {
+    id: 'ot-bronze-serpent',
+    track: 'ot',
+    era: 'exodus-conquest',
+    year: -1407,
+    approximate: true,
+    title: 'Bronze Serpent Raised',
+    scripture: 'Numbers 21:4-9',
+    description:
+      'When the Israelites spoke against God and Moses during the wilderness journey, God sent venomous serpents among the people and many died. The people confessed their sin and asked Moses to intercede. God instructed Moses to make a bronze serpent and mount it on a pole; anyone who was bitten could look at the bronze serpent and live.',
+    significance:
+      'Jesus explicitly identified the bronze serpent as a type of His own crucifixion: "As Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life" (John 3:14-15). The parallel lies in the instrument of death being raised up as the means of salvation for all who look to it in faith.',
+    historicalContext:
+      'The bronze serpent was preserved as a relic and later became an object of idolatrous worship in Israel. King Hezekiah destroyed it during his religious reforms, calling it "Nehushtan" (2 Kings 18:4). Snake iconography was widespread in ancient Near Eastern healing cults, but the biblical narrative redirects the symbolism toward faith in God alone.',
+    figures: ['Moses'],
+    location: { name: 'Wilderness (Transjordan)', lat: 30.5, lng: 35.5 },
+  },
+  {
+    id: 'ot-wilderness-wandering',
+    track: 'ot',
+    era: 'exodus-conquest',
+    year: -1445,
+    endYear: -1406,
+    approximate: true,
+    title: 'Forty Years in the Wilderness',
+    scripture: 'Numbers 14; Deuteronomy 8:2-5',
+    description:
+      'After the twelve spies returned from Canaan, ten reported that the land was unconquerable. The people rebelled and wished to return to Egypt. God sentenced that generation to forty years of wilderness wandering until all adults who had refused to trust Him had died. During these decades, God sustained Israel with manna and water, their clothes did not wear out, and He disciplined them "as a man disciplines his son" (Deuteronomy 8:5).',
+    significance:
+      'Israel\'s forty years of testing in the wilderness became the paradigmatic period of trial and divine provision in Scripture. Jesus\'s forty days of fasting and temptation in the wilderness (Matthew 4:1-11) deliberately recapitulates Israel\'s experience: where Israel failed the test, Jesus — quoting Deuteronomy three times — succeeded, proving Himself the faithful Son that Israel was called but failed to be.',
+    historicalContext:
+      'The Sinai Peninsula and Negev region through which Israel wandered were arid but not uninhabited. Oases such as Kadesh-barnea (modern Ain el-Qudeirat) served as gathering points. The forty-year period may represent a full generation in ancient reckoning.',
+    figures: ['Moses', 'Aaron', 'Joshua', 'Caleb'],
+    location: { name: 'Sinai Wilderness', lat: 30.0, lng: 34.0 },
+  },
+  {
+    id: 'ot-rahab',
+    track: 'ot',
+    era: 'exodus-conquest',
+    year: -1406,
+    approximate: true,
+    title: 'Rahab and the Scarlet Cord',
+    scripture: 'Joshua 2',
+    description:
+      'Before the Israelites crossed the Jordan, Joshua sent two spies into Jericho. The Canaanite prostitute Rahab hid them on her rooftop, confessing her faith that the Lord had given Israel the land. In return, the spies promised to spare her household. They instructed her to tie a scarlet cord in her window as a sign, and when Jericho fell, Rahab and her entire family were saved.',
+    significance:
+      'Rahab\'s scarlet cord, like the Passover blood on the doorposts, marks a household for salvation by faith. Hebrews 11:31 commends Rahab for her faith, and James 2:25 cites her as an example of faith demonstrated through works. She is included in Christ\'s genealogy (Matthew 1:5), demonstrating that God\'s redemptive plan embraces even Gentile outsiders who turn to Him in faith.',
+    historicalContext:
+      'Rahab\'s house was built into the city wall of Jericho, consistent with archaeological evidence that residences were constructed within the casemate walls of Bronze Age Canaanite cities. Her occupation and Canaanite identity made her an unlikely candidate for inclusion in the covenant community, heightening the theological significance of her faith and redemption.',
+    figures: ['Rahab', 'Joshua'],
+    location: { name: 'Jericho', lat: 31.8711, lng: 35.4444 },
+  },
+  {
     id: 'ot-crossing-jordan',
     track: 'ot',
     era: 'exodus-conquest',
@@ -153,6 +290,23 @@ export const eventsOT: BiblicalEvent[] = [
       'The Philistines were part of the Sea Peoples who settled along the southern coastal plain of Canaan around 1175 BC. They established a pentapolis of five city-states (Gaza, Ashkelon, Ashdod, Ekron, Gath) and were a dominant military threat to Israel during this period.',
     figures: ['Samson'],
     location: { name: 'Philistia', lat: 31.5000, lng: 34.4667 },
+  },
+  {
+    id: 'ot-ruth-boaz',
+    track: 'ot',
+    era: 'judges',
+    year: -1100,
+    approximate: true,
+    title: 'Ruth and Boaz — The Kinsman-Redeemer',
+    scripture: 'Ruth 1-4',
+    description:
+      'Ruth, a Moabite widow, chose to remain with her Israelite mother-in-law Naomi, declaring "Your people shall be my people, and your God my God" (Ruth 1:16). In Bethlehem, she gleaned in the fields of Boaz, a wealthy relative of Naomi\'s deceased husband. Boaz acted as the kinsman-redeemer (go\'el), purchasing the family property and marrying Ruth to preserve the family line. Their son Obed became the grandfather of King David.',
+    significance:
+      'The institution of the kinsman-redeemer — one who has the right, the resources, and the willingness to redeem — is one of the clearest Old Testament types of Christ\'s redemptive work. Ruth\'s inclusion in the messianic lineage (Matthew 1:5) also demonstrates that God\'s redemptive plan extends beyond ethnic Israel to include Gentiles.',
+    historicalContext:
+      'The book of Ruth is set "in the days when the judges ruled" (Ruth 1:1) and provides a counterpoint to the violence and moral decay depicted in the book of Judges. The kinsman-redeemer (go\'el) institution is rooted in Leviticus 25:25-55, which prescribes the redemption of property and persons within Israelite clan structures.',
+    figures: ['Ruth', 'Boaz', 'Naomi'],
+    location: { name: 'Bethlehem', lat: 31.7054, lng: 35.2024 },
   },
   {
     id: 'ot-saul-anointed',
@@ -255,6 +409,23 @@ export const eventsOT: BiblicalEvent[] = [
       'Baal worship had been officially promoted in Israel by King Ahab and his Phoenician wife Jezebel. The Baal cult was the dominant Canaanite fertility religion, and Mount Carmel, a prominent headland overlooking the Mediterranean, was a traditional boundary site between Israelite and Phoenician territory.',
     figures: ['Elijah'],
     location: { name: 'Mount Carmel', lat: 32.7417, lng: 34.9861 },
+  },
+  {
+    id: 'ot-jonah',
+    track: 'ot',
+    era: 'divided-kingdom',
+    year: -780,
+    approximate: true,
+    title: 'Jonah and the Great Fish',
+    scripture: 'Jonah 1-4',
+    description:
+      'God commanded the prophet Jonah to preach judgment against Nineveh, the capital of Assyria. Jonah fled by ship in the opposite direction, but God sent a great storm. The sailors threw Jonah overboard, and he was swallowed by a great fish, remaining in its belly three days and three nights. After being vomited onto dry land, Jonah obeyed and preached to Nineveh, and the entire city repented.',
+    significance:
+      'Jesus explicitly cited Jonah as a sign pointing to His own death and resurrection: "For just as Jonah was three days and three nights in the belly of the great fish, so will the Son of Man be three days and three nights in the heart of the earth" (Matthew 12:40). Jonah\'s mission to the Gentile city of Nineveh also prefigures the extension of God\'s mercy beyond Israel.',
+    historicalContext:
+      '2 Kings 14:25 identifies Jonah son of Amittai as a prophet from Gath-hepher in the northern kingdom during the reign of Jeroboam II. Nineveh was the capital of the Neo-Assyrian Empire and one of the largest cities in the ancient world, located on the Tigris River opposite modern Mosul, Iraq.',
+    figures: ['Jonah'],
+    location: { name: 'Joppa / Nineveh', lat: 36.3600, lng: 43.1500 },
   },
   {
     id: 'ot-amos',

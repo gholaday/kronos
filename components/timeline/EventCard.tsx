@@ -1,7 +1,6 @@
 'use client';
 
 import { useMemo } from 'react';
-import { motion } from 'framer-motion';
 import type { BiblicalEvent, CrossReference } from '@/lib/types';
 import { formatYear } from '@/lib/timeline-math';
 import { CONNECTION_STYLES } from '@/lib/constants';
@@ -32,14 +31,7 @@ export default function EventCard({ event, crossRefs, allEvents, onClose, onNavi
   const nextEvent = currentIndex < trackEvents.length - 1 ? trackEvents[currentIndex + 1] : null;
 
   return (
-    <motion.div
-      initial={{ y: '100%', opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      exit={{ y: '100%', opacity: 0 }}
-      transition={{ duration: 0.25, ease: [0.4, 0, 0.2, 1] }}
-      className="border-t border-[var(--color-border)] bg-[var(--color-surface)] overflow-y-auto"
-      style={{ height: '43vh' }}
-    >
+    <div className="h-full">
       <div className="max-w-3xl mx-auto px-6 py-4">
         {/* Header row */}
         <div className="flex items-start justify-between gap-4">
@@ -246,6 +238,6 @@ export default function EventCard({ event, crossRefs, allEvents, onClose, onNavi
           </div>
         )}
       </div>
-    </motion.div>
+    </div>
   );
 }
