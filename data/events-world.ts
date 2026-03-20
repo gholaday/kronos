@@ -34,6 +34,38 @@ export const eventsWorld: BiblicalEvent[] = [
     location: { name: 'Babylon', lat: 32.5363, lng: 44.4209 },
   },
   {
+    id: 'world-megiddo-thutmose',
+    track: 'world',
+    era: 'egypt',
+    year: -1457,
+    approximate: false,
+    title: 'Battle of Megiddo — Egypt\'s Empire Expands',
+    description:
+      'Pharaoh Thutmose III defeated a Canaanite coalition led by the King of Kadesh at Megiddo in the first battle recorded in reliable detail. Thutmose chose a daring route through the narrow Aruna Pass, achieving complete surprise. After the battle, Megiddo endured a seven-month siege before falling. Thutmose went on to conduct at least sixteen campaigns, extending Egyptian power from the Euphrates to the Fourth Cataract of the Nile.',
+    significance:
+      'The battle established Egyptian dominance over Canaan during the period traditionally associated with the Israelite sojourn in Egypt. Megiddo\'s strategic importance — controlling the pass between the coastal plain and the Jezreel Valley — made it a perennial battlefield. Its Hebrew name, Har Megiddo, gives us "Armageddon" (Revelation 16:16).',
+    historicalContext:
+      'The campaign is documented in the Annals of Thutmose III, inscribed on the walls of the Temple of Amun at Karnak and derived from a campaign journal kept by the royal scribe Tjaneni. Egyptologist James Breasted called Thutmose III "the Napoleon of Egypt."',
+    figures: ['Thutmose III'],
+    location: { name: 'Megiddo', lat: 32.5847, lng: 35.1847 },
+  },
+  {
+    id: 'world-akhenaten',
+    track: 'world',
+    era: 'egypt',
+    year: -1353,
+    approximate: true,
+    title: 'Akhenaten — Amarna Period',
+    description:
+      'Pharaoh Akhenaten (formerly Amenhotep IV) elevated the sun god Aten to sole deity, closed the temples of other gods, and moved Egypt\'s capital to a new city, Akhetaten (modern Tell el-Amarna). His Great Hymn to the Aten — strikingly parallel to Psalm 104 — celebrates a single creator god. After his death, his successors swiftly restored traditional worship, and later pharaohs attempted to erase his name from Egyptian records entirely.',
+    significance:
+      'The Amarna Letters — 382 cuneiform tablets of diplomatic correspondence discovered at the site in 1887 — include messages from Canaanite vassal kings and reference the "Habiru," a term debated in connection with the Hebrews. The letters illuminate the political landscape of Canaan in the period preceding or overlapping with the Israelite settlement.',
+    historicalContext:
+      'Akhenaten reigned approximately 1353-1336 BC, contemporaneous with the traditional early date of the Exodus. His queen Nefertiti was a prominent partner in the religious revolution. Whether his Atenism constituted true monotheism or a radical monolatry remains debated by Egyptologists.',
+    figures: ['Akhenaten'],
+    location: { name: 'Amarna, Egypt', lat: 27.6453, lng: 30.8967 },
+  },
+  {
     id: 'world-kadesh',
     track: 'world',
     era: 'egypt',
@@ -64,6 +96,54 @@ export const eventsWorld: BiblicalEvent[] = [
       'This period of upheaval marks the transition from the Bronze Age to the Iron Age and corresponds roughly to the biblical period of the Judges.',
     figures: [],
     location: { name: 'Eastern Mediterranean', lat: 35.0, lng: 33.0 },
+  },
+  {
+    id: 'world-trojan-war',
+    track: 'world',
+    era: 'greece',
+    year: -1184,
+    approximate: true,
+    title: 'Trojan War (Traditional Date)',
+    description:
+      'According to Greek tradition, a coalition of Mycenaean Greeks besieged and destroyed the city of Troy after a ten-year war. The ancient chronographer Eratosthenes dated the fall of Troy to 1184 BC. While Homer\'s Iliad (composed orally in the 8th century BC) is literary rather than historical, the archaeological layer known as Troy VIIa at Hisarlik in Turkey shows evidence of violent destruction around 1180 BC, including sling stones, arrowheads, and human remains consistent with a military assault.',
+    significance:
+      'Whether or not Homer\'s narrative reflects a specific historical event, the Trojan War belongs to the broader Late Bronze Age upheaval contemporaneous with the biblical period of the Judges. The collapse of Mycenaean civilization that followed contributed to the power vacuum in which the Philistines settled coastal Canaan and the Israelite tribes consolidated.',
+    historicalContext:
+      'Hittite diplomatic texts reference a place called "Wilusa" (plausibly Ilios/Troy) and a conflict involving "Ahhiyawa" (possibly the Achaeans/Greeks), providing independent evidence for tensions in the region. The traditional date falls within the broader Bronze Age Collapse (c. 1200-1150 BC).',
+    figures: [],
+    location: { name: 'Troy (Hisarlik), Turkey', lat: 39.9573, lng: 26.2389 },
+  },
+  {
+    id: 'world-philistines',
+    track: 'world',
+    era: 'egypt',
+    year: -1175,
+    approximate: true,
+    title: 'Philistines Settle in Canaan',
+    description:
+      'Pharaoh Ramesses III defeated a massive invasion by the "Sea Peoples" — including the Peleset (Philistines) — in land and sea battles around 1175 BC. Despite their defeat, the Philistines settled the southern coastal plain of Canaan, establishing the Pentapolis: Gaza, Ashkelon, Ashdod, Ekron, and Gath. A 2019 DNA study published in Science Advances confirmed their European (Aegean) origins, consistent with the biblical identification of their homeland as "Caphtor" (Amos 9:7; Jeremiah 47:4), generally identified as Crete.',
+    significance:
+      'The Philistines became the primary antagonists of Israel during the period of the Judges and the early monarchy. Their conflicts with Samson, Samuel, Saul, and David dominate the biblical narrative from Judges 13 through 2 Samuel. Their monopoly on iron-working (1 Samuel 13:19-22) gave them a significant military advantage.',
+    historicalContext:
+      'Ramesses III\'s victory is depicted in detailed relief carvings at his mortuary temple at Medinet Habu near Luxor. Excavations at Ashkelon, Ekron (Tel Miqne), and Gath (Tell es-Safi) have uncovered Aegean-style pottery, architecture, and cuisine in the earliest Philistine layers, confirming their foreign origins.',
+    figures: ['Ramesses III'],
+    location: { name: 'Gaza / Ashkelon', lat: 31.6688, lng: 34.5712 },
+  },
+  {
+    id: 'world-phoenician-alphabet',
+    track: 'world',
+    era: 'egypt',
+    year: -1050,
+    approximate: true,
+    title: 'Phoenician Alphabet Develops',
+    description:
+      'The Phoenicians refined the Proto-Canaanite script into a standardized consonantal alphabet of 22 letters — a dramatic simplification compared to the hundreds of signs required by cuneiform or hieroglyphs. The earliest known inscriptions in the fully developed Phoenician script, including the Ahiram sarcophagus from Byblos (c. 1000 BC, discovered in 1923), demonstrate a mature writing system that made literacy far more accessible.',
+    significance:
+      'The Phoenician alphabet is the ancestor of nearly all alphabetic writing systems in use today. The Greeks adapted it (adding vowels) around the 9th-8th century BC, producing the Greek alphabet from which Latin, Cyrillic, and modern Western scripts descend. The Aramaic branch gave rise to Hebrew, Arabic, and scripts across Central and South Asia. The Hebrew script in which the Old Testament was written descends directly from this tradition.',
+    historicalContext:
+      'The alphabet developed during the period of the Judges, when the Phoenician cities of Tyre, Sidon, and Byblos were becoming the dominant maritime traders of the Mediterranean. Phoenicia would later supply the materials and craftsmen for Solomon\'s Temple (1 Kings 5:1-12).',
+    figures: [],
+    location: { name: 'Byblos, Lebanon', lat: 34.1236, lng: 35.6482 },
   },
   {
     id: 'world-ashurnasirpal',
@@ -194,6 +274,23 @@ export const eventsWorld: BiblicalEvent[] = [
     location: { name: 'Marathon, Greece', lat: 38.1535, lng: 23.9628 },
   },
   {
+    id: 'world-peloponnesian-war',
+    track: 'world',
+    era: 'persia',
+    year: -431,
+    endYear: -404,
+    approximate: false,
+    title: 'Peloponnesian War — Greece Exhausted',
+    description:
+      'Athens and its Delian League fought Sparta and its Peloponnesian League for hegemony over Greece in a devastating 27-year war. Key events included the plague that killed Pericles (429 BC), the disastrous Athenian expedition to Sicily (415-413 BC), and the decisive Spartan naval victory at Aegospotami (405 BC). Athens surrendered in 404 BC. The war left the Greek city-states so weakened that Philip II of Macedon was able to conquer Greece within two generations.',
+    significance:
+      'The Peloponnesian War destroyed the golden age of Athens and set in motion the chain of events — Macedonian conquest, Alexander\'s empire, the Hellenistic world — that created the cultural and linguistic environment in which the New Testament was written and early Christianity spread.',
+    historicalContext:
+      'Thucydides\' History of the Peloponnesian War, written by the Athenian general himself, is the primary source and one of the masterworks of ancient historiography. Persia intervened on Sparta\'s behalf from 413 BC, providing the funds that built the fleet which defeated Athens. The war occurred during the later Persian period of biblical history, overlapping with the beginning of the intertestamental period.',
+    figures: [],
+    location: { name: 'Athens / Sparta', lat: 37.9715, lng: 23.7257 },
+  },
+  {
     id: 'world-alexander',
     track: 'world',
     era: 'greece',
@@ -210,6 +307,86 @@ export const eventsWorld: BiblicalEvent[] = [
     location: { name: 'Macedonia', lat: 40.5931, lng: 22.9444 },
   },
   {
+    id: 'world-diadochi',
+    track: 'world',
+    era: 'greece',
+    year: -323,
+    approximate: false,
+    title: 'Death of Alexander; Empire Divided',
+    description:
+      'Alexander the Great died in the palace of Nebuchadnezzar II in Babylon on June 10-11, 323 BC, at age 32. With no clear successor, his generals (the Diadochi) fought a series of wars (322-281 BC) that ultimately divided the empire into three major kingdoms: Macedon under the Antigonids, Egypt under the Ptolemies, and the eastern territories under the Seleucids. The decisive Battle of Ipsus (301 BC) confirmed this partition.',
+    significance:
+      'The division placed Judea directly between the Ptolemaic kingdom to the south and the Seleucid kingdom to the north. For the next 150 years, Judea would be contested between these powers — the "king of the South" and "king of the North" of Daniel 11. This geopolitical reality shaped Jewish life throughout the intertestamental period.',
+    historicalContext:
+      'A Babylonian astronomical diary is the only contemporary source for Alexander\'s death; later accounts by Plutarch and Arrian draw on the lost "Royal Journal." The Wars of the Diadochi were among the most destructive of the ancient world and established the political map of the eastern Mediterranean for the next two centuries.',
+    figures: ['Alexander'],
+    location: { name: 'Babylon', lat: 32.5363, lng: 44.4209 },
+  },
+  {
+    id: 'world-ptolemaic-judea',
+    track: 'world',
+    era: 'greece',
+    year: -301,
+    approximate: false,
+    title: 'Ptolemaic Control of Judea',
+    description:
+      'Following the Battle of Ipsus (301 BC), Ptolemy I Soter consolidated control over Judea, which he had first seized in 320 BC by entering Jerusalem on a Sabbath when Jews did not fight, according to the historian Agatharchides (cited by Josephus). Under the Ptolemies, Jews were generally allowed to maintain their religious practices and enjoyed relative stability for a century (301-198 BC). Large Jewish communities flourished in Egypt, particularly in Alexandria.',
+    significance:
+      'The benign Ptolemaic period allowed Jewish religious and intellectual life to develop, most notably through the translation of the Septuagint in Alexandria under Ptolemy II Philadelphus. The Alexandrian Jewish community would later produce the philosopher Philo and provide an important bridge between Jewish thought and Greek philosophy.',
+    historicalContext:
+      'Josephus (Antiquities 12) is the primary source for Jewish life under the Ptolemies. The period corresponds to the first half of the intertestamental "silent years" between Malachi and the New Testament, during which Judaism developed the synagogue system, wisdom literature, and apocalyptic thought that would shape the world of Jesus and the apostles.',
+    figures: ['Ptolemy I'],
+    location: { name: 'Jerusalem / Alexandria', lat: 31.7683, lng: 35.2137 },
+  },
+  {
+    id: 'world-great-wall',
+    track: 'world',
+    era: 'greece',
+    year: -221,
+    approximate: false,
+    title: 'Qin Shi Huang Unifies China; Great Wall Begun',
+    description:
+      'Qin Shi Huang defeated the last of the six rival Warring States and became the first emperor of a unified China. He standardized weights, measures, currency, and writing, and ordered existing defensive walls along the northern frontier connected and extended into a continuous fortification — the first version of the Great Wall, built with rammed earth by conscript labor under General Meng Tian. The historian Sima Qian documented these events in his Records of the Grand Historian (c. 94 BC).',
+    significance:
+      'While the biblical world was focused on the Hellenistic kingdoms that succeeded Alexander, the other great civilizations of the world were also taking shape. The unification of China occurred contemporaneously with Ptolemaic control of Judea and the translation of the Septuagint, providing global context for the intertestamental period.',
+    historicalContext:
+      'The Great Wall visible today dates mostly from the Ming Dynasty (1368-1644), not the Qin period. The original Qin walls were rammed earth, much of which has eroded. Qin Shi Huang\'s massive construction projects, including his famous terracotta army tomb complex, relied on forced labor on an enormous scale.',
+    figures: ['Qin Shi Huang'],
+    location: { name: 'China', lat: 40.4319, lng: 116.5704 },
+  },
+  {
+    id: 'world-hannibal',
+    track: 'world',
+    era: 'greece',
+    year: -218,
+    approximate: false,
+    title: 'Hannibal Crosses the Alps — Second Punic War',
+    description:
+      'The Carthaginian general Hannibal Barca marched roughly 1,000 miles from Spain, crossing the Pyrenees and the Alps with an army that included war elephants, to invade Italy during the Second Punic War (218-201 BC). He defeated Roman forces in a series of devastating battles, culminating in the annihilation of a larger Roman army at Cannae (216 BC) — one of the worst military defeats in Roman history. Despite these victories, Hannibal was unable to take Rome itself.',
+    significance:
+      'Rome\'s eventual victory over Carthage in 201 BC established it as the dominant power in the western Mediterranean, beginning the trajectory that would bring Roman legions to Judea within two centuries. The "legs of iron" in Nebuchadnezzar\'s statue (Daniel 2) and the fourth beast of Daniel 7 are traditionally interpreted by evangelical scholars as prophetically representing Rome.',
+    historicalContext:
+      'Polybius (a Greek historian who lived in Rome) and Livy are the primary sources for the Punic Wars. Carthage was permanently destroyed in the Third Punic War (146 BC), the same year Rome conquered Greece — twin events that left Rome as the unrivaled master of the Mediterranean.',
+    figures: ['Hannibal'],
+    location: { name: 'Alps / Italy', lat: 45.8326, lng: 6.8652 },
+  },
+  {
+    id: 'world-seleucid-judea',
+    track: 'world',
+    era: 'greece',
+    year: -198,
+    approximate: false,
+    title: 'Seleucids Seize Judea — Battle of Panium',
+    description:
+      'Antiochus III the Great defeated Ptolemaic forces under the general Scopas at the Battle of Panium (near Caesarea Philippi) in 200 BC, ending a century of Ptolemaic rule over Judea. While Antiochus III initially granted Jews a charter to govern themselves by the Torah, the Treaty of Apamea (188 BC) — imposed by Rome after defeating Antiochus — forced the Seleucids to pay crushing reparations that would drive later rulers to plunder temple treasuries.',
+    significance:
+      'The shift from Ptolemaic to Seleucid control directly set the stage for the persecution under Antiochus IV Epiphanes, who desecrated the Temple in 167 BC and provoked the Maccabean Revolt. Daniel 11:13-16 is widely understood by evangelical scholars as describing Antiochus III\'s conquest of Judea from the Ptolemies.',
+    historicalContext:
+      'Josephus (Antiquities 12) records that Antiochus III was warmly received by the Jews, who helped him expel the Ptolemaic garrison from Jerusalem. The Battle of Panium took place at Banias, near the source of the Jordan River — the same location where Jesus would later ask his disciples, "Who do you say that I am?" (Matthew 16:13-16).',
+    figures: ['Antiochus III'],
+    location: { name: 'Paneas (Caesarea Philippi)', lat: 33.2487, lng: 35.6943 },
+  },
+  {
     id: 'world-maccabees',
     track: 'world',
     era: 'greece',
@@ -224,6 +401,22 @@ export const eventsWorld: BiblicalEvent[] = [
       'The events are recorded in 1 and 2 Maccabees, and the prophecy of Daniel 8 and 11 is often interpreted as referring to Antiochus IV. This period falls in the intertestamental era between Malachi and the New Testament.',
     figures: ['Judas Maccabeus', 'Antiochus IV'],
     location: { name: 'Judea', lat: 31.7, lng: 35.2 },
+  },
+  {
+    id: 'world-rome-conquers-greece',
+    track: 'world',
+    era: 'rome',
+    year: -146,
+    approximate: false,
+    title: 'Rome Conquers Greece and Destroys Carthage',
+    description:
+      'In 146 BC, Rome simultaneously destroyed two great Mediterranean civilizations. In Greece, the Roman consul Lucius Mummius defeated the Achaean League and sacked Corinth — killing the men, enslaving the women and children, and burning the city. In North Africa, Scipio Aemilianus razed Carthage after a three-year siege, ending the Third Punic War. The historian Polybius, who witnessed Corinth\'s destruction, recorded the event.',
+    significance:
+      'These twin destructions marked Rome\'s emergence as the undisputed master of the Mediterranean and the beginning of the Roman era that would govern the biblical world during the life of Christ. Paul would later write his most important letter to the church at Corinth — the very city the Romans destroyed and later rebuilt as a Roman colony.',
+    historicalContext:
+      'The conventional date of 146 BC marks the transition from the Greek/Hellenistic to the Roman era. Within eighty years, Roman forces under Pompey would conquer Jerusalem (63 BC), and within a century, Augustus would establish the empire into which Jesus was born.',
+    figures: [],
+    location: { name: 'Corinth / Carthage', lat: 37.9062, lng: 22.8805 },
   },
   {
     id: 'world-pompey-jerusalem',

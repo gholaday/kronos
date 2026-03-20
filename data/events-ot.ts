@@ -460,4 +460,87 @@ export const eventsOT: BiblicalEvent[] = [
     figures: ['Malachi'],
     location: { name: 'Jerusalem', lat: 31.7683, lng: 35.2137 },
   },
+
+  // ── Intertestamental Period ────────────────────────────────────
+  {
+    id: 'ot-septuagint',
+    track: 'ot',
+    era: 'intertestamental',
+    year: -250,
+    approximate: true,
+    title: 'Septuagint — Hebrew Bible Translated into Greek',
+    description:
+      'Jewish scholars in Alexandria, Egypt, translated the Torah (and later the remaining Hebrew Scriptures) into Greek under the patronage of Ptolemy II Philadelphus. The translation is called the Septuagint (LXX) after the tradition of seventy-two translators, six from each tribe. The Pentateuch was translated first (c. 250 BC), with the remaining books completed over the following century.',
+    significance:
+      'The Septuagint became the Bible of the early church and the version most frequently quoted in the New Testament. Roughly two-thirds of OT quotations in the NT follow the Septuagint rather than what became the Masoretic Hebrew text. Key messianic passages used by early Christians, such as Isaiah 7:14 ("virgin" rather than "young woman"), rely on the LXX rendering.',
+    historicalContext:
+      'The Letter of Aristeas (a 2nd-century BC Jewish pseudepigraphal work, not canonical Scripture) provides the traditional account of the translation. Josephus corroborates the basic story in Antiquities 12.2. The translation reflects the large Greek-speaking Jewish diaspora in Egypt and the dominance of Greek as the lingua franca of the Hellenistic world.',
+    figures: [],
+    location: { name: 'Alexandria, Egypt', lat: 31.2001, lng: 29.9187 },
+  },
+  {
+    id: 'ot-ben-sira',
+    track: 'ot',
+    era: 'intertestamental',
+    year: -180,
+    approximate: true,
+    title: 'Ben Sira Writes Ecclesiasticus (Apocrypha)',
+    description:
+      'Yeshua ben Sira, a Jewish scribe and wisdom teacher in Jerusalem, composed a book of wisdom instruction similar to Proverbs. His grandson later translated it into Greek in Egypt around 132 BC, adding a prologue that provides one of the earliest references to the three-part division of the Hebrew Bible ("the Law, the Prophets, and the other books"). Note: This book (also called Sirach or Ecclesiasticus) is part of the Apocrypha — included in Catholic and Orthodox canons but not in the Protestant canon.',
+    significance:
+      'Sirach is the longest wisdom book from antiquity and provides a window into Jewish piety in the generation before the Maccabean crisis. Its "Praise of the Fathers" (chapters 44-50) includes a vivid portrait of Second Temple worship under the High Priest Simon II. Hebrew fragments found among the Dead Sea Scrolls and at Masada confirm the original language.',
+    historicalContext:
+      'Ben Sira wrote at a time when Hellenistic culture was increasingly influential in Judea, and his work urges fidelity to traditional Jewish wisdom and Torah. The book is quoted occasionally in the Talmud and was known to early church fathers, though Protestants classify it as useful for historical and devotional reading rather than as inspired Scripture.',
+    figures: [],
+    location: { name: 'Jerusalem', lat: 31.7683, lng: 35.2137 },
+  },
+  {
+    id: 'ot-qumran',
+    track: 'ot',
+    era: 'intertestamental',
+    year: -150,
+    approximate: true,
+    title: 'Qumran Community Established; Dead Sea Scrolls',
+    description:
+      'A Jewish sectarian community, widely identified with the Essenes described by Josephus and Philo, settled at Qumran near the Dead Sea under a leader they called the "Teacher of Righteousness." The community produced and preserved an extraordinary library of scrolls, discovered in 1947 when a Bedouin shepherd found clay jars in nearby caves. Over 981 manuscripts were recovered from eleven caves, including copies of every book of the Hebrew Bible except Esther.',
+    significance:
+      'The Great Isaiah Scroll (1QIsa-a), a complete copy of all 66 chapters dating to approximately 150 BC, is over 1,000 years older than the previously oldest known Hebrew manuscript of Isaiah. Its near-identical agreement with the later Masoretic Text powerfully demonstrates the extraordinary fidelity of biblical transmission across a millennium — a finding of immense significance for the reliability of the Old Testament text.',
+    historicalContext:
+      'The community rejected the Hasmonean priesthood as illegitimate and withdrew to the wilderness to await God\'s intervention. Their sectarian writings (Community Rule, War Scroll, pesharim) are not canonical Scripture but provide invaluable context for understanding the diversity of Jewish belief and practice in the centuries before Christ. Josephus (Jewish War 2.8) and Pliny the Elder (Natural History 5.73) independently describe the Essenes.',
+    figures: [],
+    location: { name: 'Qumran', lat: 31.7414, lng: 35.4593 },
+  },
+  {
+    id: 'ot-hasmonean-dynasty',
+    track: 'ot',
+    era: 'intertestamental',
+    year: -140,
+    approximate: true,
+    title: 'Hasmonean Dynasty — Jewish Independence',
+    description:
+      'Simon Maccabeus, the last surviving son of Mattathias, secured Jewish political independence from the Seleucid Empire and expelled their garrison from the Akra citadel in Jerusalem in 141 BC. The Hasmonean dynasty ruled as both kings and high priests for roughly a century until Roman intervention in 63 BC. Under John Hyrcanus (135-104 BC) and Alexander Jannaeus (103-76 BC), the kingdom expanded to approach the borders of the old Davidic realm.',
+    significance:
+      'The Hasmoneans\' controversial combination of kingship and high priesthood — offices that Scripture assigned to different tribes (Judah and Levi) — divided Jewish opinion and contributed to the emergence of the Pharisees, Sadducees, and Essenes as distinct parties. Note: The primary narrative source is 1 Maccabees (Apocrypha, not in the Protestant canon), supplemented by Josephus\' Antiquities. Daniel 8 and 11 are widely understood by evangelical scholars as prophetically referencing the events leading to the Maccabean period.',
+    historicalContext:
+      'During the Hasmonean period, the Pharisees emerged as defenders of the oral law and the resurrection, while the Sadducees represented the priestly aristocracy who accepted only the written Torah and denied the resurrection (cf. Matthew 22:23, Acts 23:8). This party division — described by Josephus in Antiquities 13 — directly shaped the religious landscape that Jesus encountered.',
+    figures: ['Simon Maccabeus'],
+    location: { name: 'Jerusalem', lat: 31.7683, lng: 35.2137 },
+  },
+  {
+    id: 'ot-herods-temple',
+    track: 'ot',
+    era: 'intertestamental',
+    year: -20,
+    approximate: true,
+    title: 'Herod Begins Rebuilding the Temple',
+    scripture: 'John 2:20',
+    description:
+      'Herod the Great began a massive renovation of the Second Temple around 20-19 BC, doubling the Temple Mount platform to approximately 36 acres with enormous retaining walls (the Western Wall is a surviving section). The sanctuary itself was completed in about eighteen months by priests trained as masons, but work on the surrounding courts and porticoes continued for decades. During Jesus\' ministry, the Jews said: "It has taken forty-six years to build this temple" (John 2:20), and the entire complex was not fully finished until approximately AD 63 — just seven years before the Romans destroyed it.',
+    significance:
+      'Herod\'s Temple was one of the architectural wonders of the ancient world. Josephus wrote that the exterior "appeared from a distance like a snow-clad mountain; for all that was not overlaid with gold was of purest white" (Jewish War 5.5.6). This was the Temple in which Jesus taught, overturned the money changers\' tables, and prophesied destruction (Mark 13:1-2).',
+    historicalContext:
+      'Josephus (Antiquities 15.11, Jewish War 5.5) provides the most detailed description. Individual stones measured up to 37 feet long. The Mishnah tractate Middot preserves additional architectural details from Jewish tradition. Despite its grandeur, Herod\'s Temple was an expansion of the Second Temple built by Zerubbabel, not a wholly new structure, preserving continuity with the post-exilic sanctuary.',
+    figures: ['Herod the Great'],
+    location: { name: 'Jerusalem', lat: 31.7781, lng: 35.2354 },
+  },
 ];

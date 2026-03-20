@@ -392,7 +392,21 @@ export default function ConnectionsView({
       </div>
 
       {/* Event detail modal */}
-      <EventModal event={selectedEvent} onClose={() => setSelectedEventId(null)} />
+      <EventModal
+        event={selectedEvent}
+        crossRefs={
+          selectedEvent
+            ? crossRefs.filter(
+                (r) =>
+                  r.sourceEventId === selectedEvent.id ||
+                  r.targetEventId === selectedEvent.id,
+              )
+            : []
+        }
+        allEvents={events}
+        onClose={() => setSelectedEventId(null)}
+        onNavigate={setSelectedEventId}
+      />
     </div>
   );
 }
